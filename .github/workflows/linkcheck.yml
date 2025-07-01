@@ -1,0 +1,28 @@
+name: Check links
+on:
+  push:
+    branches:
+      - '**'
+  schedule:
+    - cron: '13 10 * * *'
+
+jobs:
+  checklinks:
+    name: Check Links
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup ruby 2.7
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+
+      - name: Build jekyll website
+        run: bundle exec jekyll build
+
+      - name: Check for broken links
+        run: |
+          cat .github/workflows/links_to_ignore.txt | bundle exec htmlproofer --log-level :debug --ignore-status-codes 999,301,0,503,302,403 --checks Links,Scripts --no-check-external-hash --no-enforce-https --typhoeus='{"headers":{"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/94.0"},"cookiefile":".cookies","cookiejar":".cookies"}' --ignore-urls `xargs` ./_site
