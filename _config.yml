@@ -1,0 +1,45 @@
+# Site settings
+title: Visualization Design Lab
+email: vdl-faculty@sci.utah.edu
+description: "Data visualization research lab at SCI, SoC, University of Utah"
+baseurl: ""
+url: "https://vdl.sci.utah.edu"
+twitter_username: visdesignlab
+github_username: visdesignlab
+youtube_username: UCwdLyKe0EcYGQX8553tyFrA
+facebook_page:
+photos: "https://photos.google.com/share/AF1QipOiyDMtNW04qkwUVlFvbdpHKLOaFtXiq-UTEjlCd9lLzESfwSkDFsjss6F8cozTVw?key=RmM2dnVTVWk3eTEySE9HQWxLcGdzZ3dTQ3pNTmpR"
+safe: false
+lsi: false
+google_analytics: "G-M0JZQWVNF5"
+use_analytics: true
+# publications are shown as recent on the front page for years strictly great than this year
+recent_pub_year: 2021
+
+paper_content_url: https://sci.utah.edu/~vdl/papers/
+
+plugins:
+  - jekyll-redirect-from
+
+# Build settings
+permalink: pretty
+sass:
+  sass_dir: _sass
+# exclude from build
+exclude: ["README.md", ".idea/"]
+
+# Collections
+collections:
+  persons:
+    output: true
+  publications:
+    output: true
+    permalink: /publications/:path/
+  videos:
+    output: false
+  institutions:
+    output: false
+  projects:
+    output: true
+  talks:
+    output: false

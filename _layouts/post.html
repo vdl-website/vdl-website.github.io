@@ -1,0 +1,75 @@
+---
+layout: default
+title: Post | Vis Design Lab
+---
+
+<div class="home">
+
+  <div class="banner">
+  </div>	
+
+  <article class="post-content-main">
+   <h1> {{ page.title }} </h1>
+     <div class="post-meta" >
+
+
+      {% if page.authors %}
+        {% for author in page.authors %}
+          {% assign known = false %}         
+            {% for person in site.persons %}
+              {% if author == person.key %}
+                {% assign known = true %}
+                {% if page.hide-author-images != true %}
+                 <a href="{{ person.website }}"><img src="{{person.image}}" alt="{{person.first_name}} {{person.last_name}}" class="person-img person-image-blog color0" style="float: left;  margin-right: 10px"></a>    
+                {% endif %}
+                <b><a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a></b>
+              {% endif %}
+              {% endfor %}
+              {% if known == false %}
+                <b>{{author}}</b>
+                {% endif %}
+                {% if forloop.last == false %},&nbsp;{% endif %}       
+        {% endfor %}  
+      {% endif %} 
+        <br>
+      {{ page.date | date: "%B %-d, %Y" }}
+      <br>
+    </div>
+      <div class="post-list-excerpt" style="clear: both; margin-top: 1em;">
+      <p>
+          {% if page.abstract %}
+        <i>{{page.abstract}}</i>
+        {%endif%}
+      </p>
+      
+
+      {% if page.lead-image %}
+      {% assign alt-text = "Blog lede image" %}
+      {% if page.lead-image-alt-text %} 
+        {% assign alt-text=page.lead-image-alt-text %}  
+      {% endif %}
+      <img src="{{site.baseurl}}{{page.lead-image}}"  alt="{{alt-text}}"/>
+      </a>
+    {% endif %}
+
+          {{ content }}
+      </div>  
+      {% if page.publication_key %}
+      <h2>The Paper</h2>
+
+      <div>
+      <p>This blog post is based on the following paper:</p>
+      
+        {% for publication in site.publications %}
+
+        {% if page.publication_key == publication.key %}
+       
+                    {% include publication_list_entry.html %}
+             
+        {% endif %}
+    {% endfor %}
+
+      </div>    {% endif %}
+  </article>
+
+</div>
