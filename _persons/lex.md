@@ -8,10 +8,10 @@ key: lex
 permalink: /team/lex/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | engineer
 role: faculty
-email: alex@sci.utah.edu
+email: alex@visdesignlab.net
 image: /assets/images/people/lex.jpg
-organization: University of Utah
-position: Associate Professor
+organization: Graz University of Technology, University of Utah
+position: Professor
 degree: PhD, MSc
 website: /team/lex/
 interests: Data Visualization, Visualization Tools, Provenance and Reproducibility, Evaluation, Life Science Applications
@@ -19,27 +19,25 @@ graduated:
 # stuff below can be ignored if you don't use the group website for your private website
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 github: https://github.com/alexsb
-twitter: "@alexander_lex"
+twitter:
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
-room: WEB 3887
-office-hours: Fridays, 12:45-1:45pm
+room: "DH 03 180"
+primary-affiliation: TUG
+office-hours:
 
 # flag used to determine whether to show teaching   
 showteaching: true
 
 phd_students:
- - lisnic
  - zcutler
- - eliza
  - abrar
 
 ms_students:
  
 ug_students:
- - zoexel
- - luke
 
 phd_graduates:
+ - lisnic
  - lange
  - kiran
  - lin
@@ -48,6 +46,9 @@ phd_graduates:
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
 
 former_students:
+ - zoexel
+ - luke
+ - eliza
  - ssiu
  - sahai
  - zcutler
@@ -112,10 +113,10 @@ My research is on data visualization and human computer interaction. I design, b
 
 ## Bio
 
-I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the Kahlert School of Computing at the University of Utah. I direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
+I am a Professor of Human Computer Interaction at the [Institute for Human Centred Computing](https://hcc.tugraz.at/) at Graz University of Technology.  I am also affiliated with the Scientific Computing and Imaging Institute and the Kahlert School of Computing at the University of Utah. I direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
 
-I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visualization solutions for the pharmaceutical industry. I am an associate editor for IEEE TVCG and IEEE CG&A, and I served as area papers chair for IEEE VIS in 2021 and 2023. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). Other tools include [reVISit](https://revisit.dev/), a platform for designing online user sutdies, [MultiNet](https://multinet.app/), a network visualization platform and [trrack](https://github.com/trrack/), a library for tracking provenance in interactive applications. You can find other software on our [GitHub Page](https://github.com/visdesignlab).
+I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visualization solutions for the pharmaceutical industry. I am an associate editor for IEEE TVCG and IEEE CG&A, and I served as area papers chair for IEEE VIS in 2021 and 2023. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). Other tools include [reVISit](https://revisit.dev/), a platform for designing online user studies, [MultiNet](https://multinet.app/), a network visualization platform and [trrack](https://github.com/trrack/), a library for tracking provenance in interactive applications. You can find other software on our [GitHub Page](https://github.com/visdesignlab).
 
-I currently serve as the Director of Graduate Studies for the Kahlert School of Computing, overseeing more than 500 graduate students. Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
+Before joining Graz University of Technology, I was a Professor at the University of Utah. Prior to that, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
 

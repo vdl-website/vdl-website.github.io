@@ -120,11 +120,23 @@ layout: default
     <p>
         <b>Contact</b> <br>
         <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i> {{ page.email }}</a> <br>
+        {% if page.primary-affiliation == "TUG" %}
+        Institute for Human-Centred Computing, <br>
+        Faculty of Computer Science and Biomedical Engineering, <br>
+        Graz University of Technology (TUG) <br>  
+        <a href="https://www.google.com/maps/place/Sandgasse+36,+8010+Graz/@47.059263,15.4561513,787m/"><i class="fa fa-map-marker"></i>Sandgasse 36/III, 8101 Graz, Austria
+        
+        
+        
+
+
+        {% else %}
         SCI Institute, <br>
-        School of Computing, <br>
+        Kahlert School of Computing, <br>
         University of Utah <br>
         <a href="https://www.google.com/maps/place/Scientific+Computing+and+Imaging+Institute+(SCI+Institute)/@40.7682198,-111.876249,14.58z/data=!4m8!1m2!3m1!2sScientific+Computing+and+Imaging+Institute+(SCI+Institute)!3m4!1s0x0:0xed3af30fcd0bf927!8m2!3d40.7677941!4d-111.8449938"><i class="fa fa-map-marker"></i> 72 South Central Campus Drive,<br>
             Salt Lake City, Utah 84112 </a><br>
+        {% endif %}
         {% if page.room %}
         Room: {{ page.room }}
         {% endif %}
