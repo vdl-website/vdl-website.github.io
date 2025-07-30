@@ -27,6 +27,7 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
+graduated: N
 ---
 
 I'm a PhD student at the Polytechnic University of Madrid and a visiting researcher at VDL / Utah.

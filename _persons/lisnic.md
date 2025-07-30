@@ -28,7 +28,8 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-
+graduated: PhD '25
+phd_graduate: yes
 ---
 
 I am a PhD student at the School of Computing working with Alexander Lex and Marina Kogan. My research centers on understanding and mitigating mis- and disinformation in visualizations on social media.
