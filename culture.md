@@ -5,7 +5,7 @@ tag: culture
 permalink: /culture/
 ---
 
-We care about a friendly culture in our lab, so we have a series of activities to foster a collaborative atmosphere. You can get an impression on our <a href="https://goo.gl/photos/v1rN6bs6qBzSQYLL7">photo album</a>. Salt Lake City is a great place to do research, but also to play! Skiing, climbing, mountain biking, etc. is all immediately accessible in the vicinity. We have a [code of conduct](../conduct) that details how we expect our lab members to collaborate.
+We care about a friendly culture in our lab, so we have a series of activities to foster a collaborative atmosphere. You can get an impression on our <a href="https://goo.gl/photos/v1rN6bs6qBzSQYLL7">photo album</a>. Both Graz and Salt Lake City are great places to do research, but also to play! Skiing, climbing, mountain biking, etc. is all immediately accessible in the vicinity. We have a [code of conduct](../conduct) that details how we expect our lab members to collaborate.
 
 ## Group Meetings
 
@@ -25,7 +25,6 @@ Once a year we do something fun for a group retreat. Here are some pictures from
 <img class="social" src="../assets/images/social/2023_haihans_defense_and_retreat.jpg" alt="2023 VDL Social Group Photo.">
 
 ### 2022 Group Retreat
-
 
 
 <img class="social" src="../assets/images/social/2022_social.jpg" alt="2022 VDL Social Group Photo.">
@@ -58,7 +57,7 @@ No formal retreat in 2020 due to COVID, but we managed to squeeze in a social be
 
 ## Group Run
 
-We used to jog together every Tuesday and Thursday pre-covid! Check out our <a href="https://www.strava.com/clubs/vdl-running">Strava Club</a>. Maybe we'll get back to it sometime.
+Check out our <a href="https://www.strava.com/clubs/vdl-running">Strava Club</a>.
 
 
 <img class="social" src="../assets/images/social/2017_run.jpg" alt="2017 VDL Jog">
