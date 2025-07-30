@@ -5,40 +5,78 @@ tag: positions
 permalink: /positions/
 ---
 
+## Current Openings
+
+We are currently seeking a **Postdoctoral Researcher** in data visualization.  
+**Application deadline:** August 27, 2025
+
+For full details and application instructions, please visit the [official job posting](https://jobs.tugraz.at/en/jobs/bf51ab70-8f5e-885b-52cf-685aa426c346)
+
+We are also planning to **recruit new PhD students** soon. If you're interested in pursuing a PhD with us, we encourage you to [get in touch](mailto:alex@visdesignlab.net) early to discuss potential opportunities.
 
 
-We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows to do research in data visualization. 
+## General Information
 
-The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked highly in Visualization according to [csrankings.org](http://csrankings.org/index?visualization&us).** 
+We are always looking for talented and motivated individuals to join the Vis Design Lab as **PhD students** or **Postdoctoral Fellows** in the area of **data visualization**.
 
-Our group commonly takes a problem-oriented approach to visualization development. We closely work with collaborators from the sciences to humanities to develop novel techniques and tools to support exploratory, complex data analysis tasks.
+The **Graz University of Technology (TU Graz)** is one of the leading institutions for computer science and engineering in Austria, located in the vibrant and historic university town of **Graz**.
 
-Current topics of interest include: 
+Our group takes a **problem-driven approach** to visualization research, working closely with collaborators across disciplines — from the sciences to the humanities — to design novel techniques and tools that support **exploratory, complex data analysis**.
 
- * Visualization techniques, including multivariate graphs, multivariate data, heterogeneous data, etc.
- * BioMedical data visualization, such as integrated visualization and algorithmic approaches for genomic data, biological networks, patient data, etc.
- * Design studies.
- * Web-based systems for scalable visualization.
- * Methods and models for applied visualization research.
- * Perceptual and cognitive principles for visualization.
- * Visualization for communication and behavior change.
- * Provenance tracking, reproducibility and storytelling. 
+### Current Research Topics
+
+We are particularly interested in the following areas:
+
+- User studies and infrastructure for user studies  
+- Accessibility in data visualization  
+- Misinformation and visualization  
+- Expert knowledge and its relationship to data  
+- Bridging code-based and interactive analysis workflows  
+- Visualization techniques for multivariate and heterogeneous data  
+- Biomedical visualization: genomic data, biological networks, patient data  
+- Design studies  
+- Scalable, web-based visualization systems  
+- Methods and models for applied visualization research  
+- Perceptual and cognitive principles for visualization  
+- Visualization for communication and behavior change  
+- Provenance tracking, reproducibility, and storytelling  
 
 
 ## PhD Students
 
-PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed two semesters of funding by the school, with subsequent years funded by the lab faculty**. 
+PhD students are enrolled in TU Graz’s **doctoral program**. At present, a **completed MS degree** is required for admission, but we are actively exploring pathways for **Bachelor’s graduates** — please [contact us](mailto:alex@visdesignlab.net) if that applies to you.
 
-We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
+We welcome applicants from computer science and related fields, but also from diverse backgrounds such as **bioinformatics, mathematics, physics, design, or psychology**. Strong written and verbal communication skills are essential.
 
-Admissions are handled by the [School of Computing](https://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. 
+There is **no fixed application deadline**: applications are reviewed on a rolling basis.
 
-If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
 
 ## Postdoctoral Fellows
 
-We are often looking to hire exceptional candidates with a proven track-record of visualization research. Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, mentoring undergraduate and graduate students, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are encouraged.
+We are seeking outstanding candidates with a strong track record in **visualization research**. Postdoctoral fellows are expected to:
 
-Candidates must have a PhD degree in computer science or related fields, and have a track-record of publication in the top visualization journals or conferences. Excellent programming skills, working knowledge of state-of-the-art software development techniques, experience collaborating with domain experts, and broad training in evaluation methods are a plus. The candidates interested in these positions must be highly motivated, willing to learn and demonstrate initiative in assigned tasks. Excellent written and verbal communication skills are crucial.
+- Develop a research agenda aligned with our focus areas  
+- Manage projects and coordinate with collaborators and lab members  
+- Mentor graduate and undergraduate students  
+- Lead and contribute to publications  
+- Support grant writing activities  
 
-We will post specific openings on these pages, but feel free to send us a CV, a research statement, PDFs of your best papers, and contact information for three references to [vdl-faculty@sci.utah.edu](mailto:vdl-faculty@sci.utah.edu) and we will get back to you.
+### Requirements
+
+Candidates must hold a **PhD in computer science** or a related field and have a **strong publication record** in top visualization and/or HCI venues. Additional desired qualifications include:
+
+- Excellent programming skills  
+- Familiarity with modern software development practices  
+- Experience collaborating with domain experts  
+- A broad understanding of evaluation methods  
+- Motivation, initiative, and willingness to learn  
+- Strong written and verbal communication skills  
+
+While specific openings will be posted on this page, feel free to submit:
+
+- Your CV  
+- A research statement  
+- PDFs of your best papers  
+- Contact information for three references  
+
+Send materials to [alex@visdesignlab.net](mailto:alex@visdesignlab.net). We look forward to hearing from you!
