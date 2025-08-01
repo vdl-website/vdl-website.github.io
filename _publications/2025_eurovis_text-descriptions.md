@@ -41,7 +41,7 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 
+  doi: 10.1111/cgf.70102
   url: 
   volume: 44
   number: 3
