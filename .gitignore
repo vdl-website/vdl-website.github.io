@@ -23,3 +23,5 @@ css/site.css
 /.vs
 
 .bundle
+
+Gemfile.lock
