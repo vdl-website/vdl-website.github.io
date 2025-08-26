@@ -40,7 +40,7 @@ In our interviews, participants spoke openly about the barriers BLV individuals 
 
 In a world increasingly driven by data, data literacy means a lot, such as job opportunities or the ability for equal information acquisition. By using tactile template charts as educational tools, we can equip BLV learners with transferable knowledge—knowledge that carries over to new contexts. Our hope is to empower BLV individuals to be better able to interpret unfamiliar visualizations and to participate fully in discussions with sighted collaborators in academic, professional, and civic discussions where data plays a central role. 
 
-We make our models available on the [project website]((https://vdl.sci.utah.edu/tactile-charts/)), so that anyone with access to a 3D printer can make their own template charts. 
+We make our models available on the [project website](https://vdl.sci.utah.edu/tactile-charts/), so that anyone with access to a 3D printer can make their own template charts. 
 
 Sometimes, the best way to learn a chart is to feel it.
 
