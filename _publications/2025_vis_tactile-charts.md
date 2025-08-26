@@ -49,6 +49,7 @@ bib:
 preprint_server: https://arxiv.org/abs/2507.21462
 
 
+blog-post: 2025/08/08/tactile-charts/
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
