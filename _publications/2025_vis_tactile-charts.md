@@ -49,6 +49,14 @@ bib:
 preprint_server: https://arxiv.org/abs/2507.21462
 
 
+videos:
+ - name: 'Conference Presentation'
+   youtube-id: fwlt2H7zTo0
+   file: 2025_vis_tactile-charts-presentation.mp4
+   subtitles: 2025_vis_tactile-charts-presentation.srt
+
+
+
 blog-post: 2025/08/08/tactile-charts/
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
