@@ -37,9 +37,9 @@ bib:
   address: 
   doi:  10.31219/osf.io/79eyn 
   url: 
-  volume: 
-  number: 
-  pages: 
+  volume: 31
+  number: 1
+  pages: 1213–1223
   month:
 
 preprint: https://osf.io/79eyn/ # here you can put all preprint links (arxiv.org, osf.io,...)

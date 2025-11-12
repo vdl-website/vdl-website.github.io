@@ -28,9 +28,9 @@ bib:
   address: 
   doi:  10.1109/TVCG.2024.3456193
   url: 
-  volume: 
-  number: 
-  pages: 
+  volume: 31
+  number: 1
+  pages: 1290–1300
   month:
 
 preprint: https://osf.io/cdbm6

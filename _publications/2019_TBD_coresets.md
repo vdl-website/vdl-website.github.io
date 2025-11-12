@@ -24,7 +24,7 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Big Data, early access
+  journal: IEEE Transactions on Big Data
   booktitle: 
   editor: 
   publisher: 
