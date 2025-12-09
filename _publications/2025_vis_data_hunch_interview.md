@@ -27,10 +27,10 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi:
+  doi: 10.1109/TVCG.2025.3634821
   url: 
   volume: 32
-  number: 
+  number: 1
   pages: 
   month: jan
 
