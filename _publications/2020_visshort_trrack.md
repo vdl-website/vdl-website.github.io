@@ -23,7 +23,7 @@ year: 2020
 blog-post: "2020/10/28/trrack/"
 
 
-bibentry: article
+bibentry: inproceedings
 bib:
   journal: 
   booktitle: IEEE Visualization Conference (VIS)
