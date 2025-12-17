@@ -9,6 +9,7 @@ role: postdoc
 email: sarma.abhraneel@gmail.com
 image: /assets/images/people/sarma.jpg
 organization: Graz University of Technology
+primary-affiliation: tug
 position: Postdoctoral Researcher
 # use either a local link like here, or a URL
 website: https://abhsarma.github.io/

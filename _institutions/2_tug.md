@@ -4,6 +4,6 @@ key: tug
 name: Graz University of Technology
 location: Graz, Austria
 website: https://tugraz.at
-logo: /assets/images/logos/tug.png
+logo: /assets/images/logos/tug-full.svg
 order: 2
 ---

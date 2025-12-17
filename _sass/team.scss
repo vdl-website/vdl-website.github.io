@@ -61,6 +61,10 @@
   .name {
     @include span-columns(6 of 16);
     font-weight: 400;
+
+    @include media($small-display) {
+      width: 15%;
+    }
   }
 
   .spacer {
@@ -163,6 +167,17 @@
   &.not-first {
     margin-left: 20px;
   }
+}
+
+.affiliation-logo-small {
+  // margin-left: 8px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.affiliation-logo-medium {
+  height: 32px;
+  margin: 8px 0px 8px 0px;
 }
 
 .person-image-large {

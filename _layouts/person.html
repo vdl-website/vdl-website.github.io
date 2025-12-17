@@ -115,9 +115,17 @@ layout: default
          title="{{ page.first_name }} {{ page.last_name }}" src="{{ site.baseurl }}{{ page.image }}">
     <br>
 
-    {{ page.first_name }} {{ page.last_name }}, {{ page.degree}} <br>
+    {{ page.first_name }} {{ page.last_name }}, {{ page.degree}} 
+    <!-- {% if page.primary-affiliation == "TUG" %} <img class="affiliation" src="{{ site.baseurl }}/assets/images/logos/{{ page.primary-affiliation }}.jpg"/> {% endif %} -->
+    <br>
     {{ page.position}} <br>
-    <p>
+    <p> 
+        <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/{{page.primary-affiliation}}-full.svg"/>
+        {% if page.key == "lex" %}
+            <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/utah-full.svg"/>
+        {% endif %}
+        <br/>
+
         <b>Contact</b> <br>
         <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i> {{ page.email }}</a> <br>
         {% if page.primary-affiliation == "TUG" %}
@@ -125,10 +133,6 @@ layout: default
         Faculty of Computer Science and Biomedical Engineering, <br>
         Graz University of Technology (TUG) <br>  
         <a href="https://www.google.com/maps/place/Sandgasse+36,+8010+Graz/@47.059263,15.4561513,787m/"><i class="fa fa-map-marker"></i>Sandgasse 36/III, 8101 Graz, Austria
-        
-        
-        
-
 
         {% else %}
         SCI Institute, <br>

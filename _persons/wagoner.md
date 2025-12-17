@@ -10,6 +10,7 @@ role: engineer
 email: jakew@sci.utah.edu
 image: /assets/images/people/wagoner.jpg
 organization: University of Utah
+primary-affiliation: utah
 position: Software Developer
 # use either a local link like here, or a URL
 website: /team/wagoner/
