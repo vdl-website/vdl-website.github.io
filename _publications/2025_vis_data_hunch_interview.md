@@ -27,10 +27,10 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi:
+  doi: 10.1109/TVCG.2025.3634821
   url: 
   volume: 32
-  number: 
+  number: 1
   pages: 
   month: jan
 
@@ -54,7 +54,10 @@ award: IEEE VIS 2025 Honorable Mention Award
 #    file: 2021_vis_loon_talk.mp4
 
 
-
+videos:
+ - name: 'Conference Presentation (starts at 26:30)'
+   youtube-id: vzBq3yA2yUs
+   file: 2025_vis_data_hunch_presentation.mp4
 
 # Provide a preprint and supplement pdf
 

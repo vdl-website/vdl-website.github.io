@@ -23,7 +23,7 @@ year: 2010
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of the Graphics Interface (GI)
-  publisher: Canadian Human-Computer Communications Society}
+  publisher: Canadian Human-Computer Communications Society
   url: http://dl.acm.org/citation.cfm?id=1839214.1839238
   pages: 129--136
 
