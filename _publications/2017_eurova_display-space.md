@@ -3,7 +3,7 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "How Sensemaking Tools Influence Display Space Usage"
 key: 2017_eurova_display-space
-type: paper
+type: workshop
 
 # The shortname is used for auto-generated titles
 shortname: Display-Space

@@ -18,7 +18,7 @@ year: 2015
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 12th International Symposium on Visualization for Cyber Security (VIS ’15)
+  booktitle: Proceedings of the 12th International Symposium on Visualization for Cyber Security (VIS)
 
 external-project: http://mckennapsean.com/projects/vizsec-design-methods/
 

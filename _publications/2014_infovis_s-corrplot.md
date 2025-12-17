@@ -17,7 +17,7 @@ year: 2014
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’14)
+  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis)
 
 external-project: http://mckennapsean.com/projects/s-corrplot/
 

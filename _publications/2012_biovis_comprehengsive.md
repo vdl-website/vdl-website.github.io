@@ -17,7 +17,7 @@ note: Poster selected for oral presentation
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization - Posters (BioVis ’12)
+  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization - Posters (BioVis)
 
 external-project: https://github.com/alex-r-bigelow/compreheNGSive
 code: https://github.com/alex-r-bigelow/compreheNGSive

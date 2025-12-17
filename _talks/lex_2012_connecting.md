@@ -9,7 +9,7 @@ other:
 date:  2012-10-15
 note:  Marc Streit, Hans-Jörg Schulz, and Alexander Lex <br> <a href="https://sci.utah.edu/~vdl/talks/2012-10_tutorial_connecting-the-dots_handout.pdf">Handout & References</a>
 held:  
- - VisWeek’12, Seattle, WA, USA, 2012-10.
+ - VisWee, Seattle, WA, USA, 2012-10.
 ---
 
 

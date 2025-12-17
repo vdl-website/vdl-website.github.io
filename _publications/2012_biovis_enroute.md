@@ -4,7 +4,6 @@ title: "enRoute: Dynamic Path Extraction from Biological Pathway Maps for In-Dep
 key: 2012_biovis_enroute
 type: paper
 
-
 shortname: enRoute
 image: 2012_biovis_enroute.png
 
@@ -20,9 +19,9 @@ year: 2012
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization (BioVis ’12)
+  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization (BioVis)
   doi: 10.1109/BioVis.2012.6378600
-  pages: 107--114
+  pages: 107–114
 
 award: IEEE BioVis 2012 Best Paper Award
 note: 

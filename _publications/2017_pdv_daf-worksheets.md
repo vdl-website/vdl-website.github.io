@@ -2,8 +2,7 @@
 layout: publication
 title: "Worksheets for Guiding Novices through the Visualization Design Process"
 key: 2017_pdv_daf-worksheets
-type: paper
-
+type: workshop
 shortname: daf-worksheets
 image: 2017_pdv_daf-worksheets.png
 image_large: 2017_pdv_daf-worksheets-teaser.png
@@ -18,8 +17,8 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: IEEE Workshop on Pedagogy of Data Visualization (PDV)
-  doi: 
+  booktitle: Workshop on Pedagogy of Data Visualization (PDV)
+  doi: 10.48550/arXiv.1709.05723
   publisher: IEEE
 
 external-project: https://design-worksheets.github.io/

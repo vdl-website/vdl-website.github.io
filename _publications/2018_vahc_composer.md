@@ -5,7 +5,7 @@ title: "Composer: Visual Cohort Analysis of Patient Outcomes"
 # Keys must be unique to each paper, see section below for more details
 key: 2018_vahc_composer
 # Select one of the options below
-type: paper 
+type: workshop
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage
 # Uncomment the line below for publications which should only appear on a personal webpage

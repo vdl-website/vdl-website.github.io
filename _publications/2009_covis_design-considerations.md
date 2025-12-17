@@ -2,8 +2,7 @@
 layout: publication
 title: "Design Considerations for Collaborative Information Workspaces in Multi-Display Environments"
 key: 2009_covis_design-considerations
-type: paper
-
+type: workshop
 
 shortname:
 image: 2009_covis_design-considerations.png

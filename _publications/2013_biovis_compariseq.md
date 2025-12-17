@@ -18,7 +18,7 @@ note: BioVis Redesign Contest submission
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization - Redesign Contest Poster (BioVis ’13)
+  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization - Redesign Contest Poster (BioVis)
 
 pdf: 2013_biovis_compariseq.pdf
 code: "https://github.com/visdesignlab/compariSeq"

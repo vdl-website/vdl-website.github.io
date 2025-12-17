@@ -21,7 +21,7 @@ year: 2014
 
 bibentry: inproceedings
 bib:
-  booktitle: AVI 2014 International Working Conference on Advanced Visual Interfaces (AVI ’14)
+  booktitle: AVI 2014 International Working Conference on Advanced Visual Interfaces (AVI)
   publisher: ACM
   doi: 10.1145/2598153.2598175
   pages: 17--24

@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Caleydo: Connecting Pathways with Gene Expression "
+title: "Caleydo: Connecting Pathways with Gene Expression"
 key: 2009_bioinformatics_caleydo
 type: paper
 
@@ -23,7 +23,7 @@ bib:
   doi: 10.1093/bioinformatics/btp432
   volume: 25
   number: 20
-  pages: 2760--2761
+  pages: 2760–2761
 
 award: 
 note: 
