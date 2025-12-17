@@ -11,6 +11,7 @@ role: engineer
 email: jwilburn@sci.utah.edu
 image: /assets/images/people/wilburn.jpg
 organization: University of Utah
+primary-affiliation: utah
 position: Software Developer
 website: /team/wilburn/
 interests: "Developing high quality software, mentoring students"

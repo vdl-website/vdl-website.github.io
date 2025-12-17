@@ -10,6 +10,7 @@ role: phdstudent
 email: abrar.nadib@umail.utah.edu
 image: /assets/images/people/abrar.jpg
 organization: University of Utah
+primary-affiliation: utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: https://abrarnad.github.io/

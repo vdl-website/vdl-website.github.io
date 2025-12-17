@@ -35,52 +35,47 @@ layout: default
 
   <article class="team-content">
       <h1 class="team-heading">Faculty</h1>
-
       {% include person.html key="lex" %}
 
       {% if ifpostdoc %}
-      <p class="space">&nbsp;</p>
-      <h1>Post-Doctoral Fellows</h1>
-
-      {% include person.html role="postdoc" %}
+        <p class="space">&nbsp;</p>
+        <h1>Post-Doctoral Fellows</h1>
+        {% include person.html role="postdoc" %}
       {% endif %}
 
 
       {% if ifphdstudent %}
-      <h1 class="team-heading">PhD Students</h1>
-      {% include person.html role="phdstudent" %}
+        <h1 class="team-heading">PhD Students</h1>
+        {% include person.html role="phdstudent" %}
       {% endif %}
 
       {% if phd_rotation %}
-
-      <h1 class="team-heading">PhD Rotation Students</h1>
-      {% include person.html role="phd_rotation" %}
+        <h1 class="team-heading">PhD Rotation Students</h1>
+        {% include person.html role="phd_rotation" %}
       {% endif %}
 
-       {% if visitor %}
-      <h1 class="team-heading">Visitors</h1>
-      {% include person.html role="visitor" %}
+      {% if visitor %}
+        <h1 class="team-heading">Visitors</h1>
+        {% include person.html role="visitor" %}
       {% endif %}
 
       {% if ifmsstudent %}
-         <h1 class="team-heading">Master's Students</h1>
-
+        <h1 class="team-heading">Master's Students</h1>
         {% include person.html role="msstudent" %}
       {% endif %}
 
       {% if ifundergrad %}
         <h1 class="team-heading">Undergraduate Students</h1>
-
         {% include person.html role="undergrad" %}
       {% endif %}
 
       {% if ifintern %}
         <h1 class="team-heading">Interns</h1>
-      {% include person.html role="intern" %}
+        {% include person.html role="intern" %}
       {% endif %}
 
       {% if ifengineer %}
-		<h1 class="team-heading">Software Engineers</h1>
+		    <h1 class="team-heading">Software Engineers</h1>
         {% include person.html role="engineer" %}
       {% endif %}
 

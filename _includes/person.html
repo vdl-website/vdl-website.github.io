@@ -13,6 +13,11 @@
         {% else %}
         {{ name }}
         {% endif %}
+        &nbsp;
+        <img class="affiliation-logo-small" src="{{site.baseurl}}/assets/images/logos/{{person.primary-affiliation}}.svg"/>
+        {% if person.key == "lex" %}
+        <img class="affiliation-logo-small" src="{{site.baseurl}}/assets/images/logos/utah.svg"/>
+        {% endif %}
       
       <span class="spacer">
         {% capture numDots %}{{name | size | minus: 23 | times: -1}}{% endcapture %}
