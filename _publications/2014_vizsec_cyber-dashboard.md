@@ -15,7 +15,7 @@ year: 2014
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 11th International Symposium on Visualization for Cyber Security - Posters (VIS ’14)
+  booktitle: Proceedings of the 11th International Symposium on Visualization for Cyber Security - Posters (VIS)
 
 external-project: http://mckennapsean.com/projects/cybersecurity-dashboard/
 

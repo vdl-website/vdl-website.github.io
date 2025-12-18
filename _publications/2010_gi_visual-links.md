@@ -25,7 +25,8 @@ bib:
   booktitle: Proceedings of the Graphics Interface (GI)
   publisher: Canadian Human-Computer Communications Society
   url: http://dl.acm.org/citation.cfm?id=1839214.1839238
-  pages: 129--136
+  pages: 129–136
+  doi: 10.5555/1839214.1839238
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award: GI 2010 Best Student Paper Award

@@ -30,7 +30,9 @@ layout: default
 
     {% for publication in publications reversed %}
       {% if publication.personal %}
-      {% elsif publication.type == "paper" %}
+     {% elsif publication.type == "paper"
+      or publication.type == "workshop"
+      or publication.type == "shortpaper" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}

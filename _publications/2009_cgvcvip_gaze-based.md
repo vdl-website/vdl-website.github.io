@@ -2,7 +2,7 @@
 layout: publication
 title: "Gaze-Based Focus Adaption in an Information Visualization System"
 key: 2009_cgvcvip_gaze-based
-type: paper
+type: workshop
 
 
 shortname:
@@ -19,6 +19,7 @@ year: 2009
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of the Conference on Computer Graphics and Visualization and Image Processing (CGVCVIP)
+  publisher: IADIS
 
 award: 
 note: 

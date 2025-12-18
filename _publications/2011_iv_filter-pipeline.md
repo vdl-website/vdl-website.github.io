@@ -4,8 +4,7 @@ title: "Visualizing the Effects of Logically Combined Filters"
 key: 2011_iv_filter-pipeline
 type: paper
 
-
-shortname: VisBricks
+shortname: FilterPipeline
 image: 2011_iv_filter-pipeline.png
 
 authors:

@@ -2,7 +2,7 @@
 layout: publication
 title: "Trrack: A Library for Provenance-Tracking in Web-Based Visualizations"
 key: 2020_visshort_trrack
-type: paper
+type: shortpaper
 order: 2020-04
 
 shortname: Trrack

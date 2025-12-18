@@ -18,7 +18,7 @@ year: 2014
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’14)
+  booktitle: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)
   publisher: ACM Press
   doi: 10.1145/2556288.2557032
   pages: 3705--3714

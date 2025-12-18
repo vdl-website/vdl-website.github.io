@@ -193,7 +193,9 @@ layout: default
         {% if haspublications %}
         <h3>Peer-reviewed Journal and Conference Publications</h3>
         {% for publication in publications reversed %}
-        {% if publication.type == "paper" %}
+        {% if publication.type == "paper"
+            or publication.type == "workshop"
+            or publication.type == "shortpaper" %}
         {% for author in publication.authors %}
         {% if author == page.key %}
         {% include publication_list_entry.html %}

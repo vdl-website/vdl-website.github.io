@@ -2,7 +2,7 @@
 layout: publication
 title: "OceanPaths: Visualizing Multivariate Oceanography Data"
 key: 2015_eurovis_oceanpaths
-type: paper
+type: shortpaper
 
 shortname: oceanpaths
 image: 2015_eurovis_oceanpaths.png
@@ -17,7 +17,7 @@ year: 2015
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the Eurographics Conference on Visualization (EuroVis ’15) - Short Papers
+  booktitle: Proceedings of the Eurographics Conference on Visualization (EuroVis) - Short Papers
   publisher: The Eurographics Association
   doi: 10.2312/eurovisshort.20151124
 

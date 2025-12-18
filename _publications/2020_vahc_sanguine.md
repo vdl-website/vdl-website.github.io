@@ -5,7 +5,7 @@ title: "Sanguine: Visual Analysis for Patient Blood Management"
 # Keys must be unique to each paper, see section below for more details
 key: 2020_vahc_sanguine
 # Select one of the options below
-type: paper 
+type: workshop
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineag
 order: 2020-10

@@ -2,7 +2,7 @@
 layout: publication
 title: "reVISit: Supporting Scalable Evaluation of Interactive Visualizations"
 key: 2023_shortpaper_revisit
-type: paper
+type: shortpaper
 order: 2023-8
 
 shortname: reVISit
