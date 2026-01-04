@@ -10,7 +10,7 @@ role:  phdstudent
 email: zach.t.cutler@gmail.com
 image: /assets/images/people/zcutler.jpg
 organization: University of Utah
-primary-affiliation: utah
+primary_affiliation: utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: /team/zcutler/

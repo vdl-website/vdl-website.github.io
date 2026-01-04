@@ -116,11 +116,11 @@ layout: default
     <br>
 
     {{ page.first_name }} {{ page.last_name }}, {{ page.degree}} 
-    <!-- {% if page.primary-affiliation == "TUG" %} <img class="affiliation" src="{{ site.baseurl }}/assets/images/logos/{{ page.primary-affiliation }}.jpg"/> {% endif %} -->
+    <!-- {% if page.primary_affiliation == "TUG" %} <img class="affiliation" src="{{ site.baseurl }}/assets/images/logos/{{ page.primary_affiliation }}.jpg"/> {% endif %} -->
     <br>
     {{ page.position}} <br>
     <p> 
-        <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/{{page.primary-affiliation}}-full.svg"/>
+        <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/{{page.primary_affiliation}}-full.svg"/>
         {% if page.key == "lex" %}
             <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/utah-full.svg"/>
         {% endif %}
@@ -128,7 +128,8 @@ layout: default
 
         <b>Contact</b> <br>
         <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i> {{ page.email }}</a> <br>
-        {% if page.primary-affiliation == "TUG" %}
+
+        {% if page.primary_affiliation == "TUG" %}
         Institute for Human-Centred Computing, <br>
         Faculty of Computer Science and Biomedical Engineering, <br>
         Graz University of Technology (TUG) <br>  
@@ -159,9 +160,9 @@ layout: default
         {% if page.github %}
         <a href="{{page.github}}"><i class="fa fa-github"></i> GitHub</a><br>
         {% endif %}
-        {% if page.office-hours %}
+        {% if page.office_hours %}
         <br>
-        Office Hours: {{page.office-hours}} 
+        Office Hours: {{page.office_hours}} 
         {% endif %}
     </p>
 </div>

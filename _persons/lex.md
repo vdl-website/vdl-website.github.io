@@ -22,8 +22,8 @@ github: https://github.com/alexsb
 twitter:
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: "DH 03 180"
-primary-affiliation: TUG
-office-hours:
+primary_affiliation: TUG
+office_hours:
 
 # flag used to determine whether to show teaching   
 showteaching: true

@@ -10,7 +10,7 @@ email: yeonjae.kim@utah.edu
 image: /assets/images/people/jay.jpg
 organization: University of Utah
 position: Software Developer
-primary-affiliation: utah
+primary_affiliation: utah
 website: /team/jay
 interests: Human Centered Computing, Web Development, Data Visualization
 graduated: 

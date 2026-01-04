@@ -9,7 +9,7 @@ role: postdoc
 email: devinscottlange@gmail.com
 image: /assets/images/people/lange.jpg
 organization: University of Utah
-primary-affiliation: utah
+primary_affiliation: utah
 position: Postdoctoral Fellow
 # use either a local link like here, or a URL
 website: https://www.devinlange.com/

@@ -10,7 +10,7 @@ role: engineer
 email: luke.schreiber@utah.edu
 image: /assets/images/people/luke.jpg
 organization: University of Utah
-primary-affiliation: utah
+primary_affiliation: utah
 position: Software Developer
 # use either a local link like here, or a URL
 website: /team/luke/
