@@ -31,7 +31,7 @@ bib:
   url: 
   volume: 32
   number: 1
-  pages: 
+  pages: 1–11
   month: jan
 
 award: IEEE VIS 2025 Honorable Mention Award

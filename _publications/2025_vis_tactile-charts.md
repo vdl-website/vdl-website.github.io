@@ -39,11 +39,11 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 
+  doi: 10.1109/TVCG.2025.3633874
   url: 
   volume: 32
-  number: 
-  pages: 
+  number: 1
+  pages: 1–11
   month: jan
 
 preprint_server: https://arxiv.org/abs/2507.21462
