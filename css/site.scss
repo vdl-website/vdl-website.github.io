@@ -32,7 +32,6 @@
 
     border-bottom: 2px $color solid;
     height: 30px;
-    //background-color: #444;
 
     transition-property: background-color, color;
     transition-duration: 500ms;
@@ -40,9 +39,6 @@
     transition-delay: 25ms;
 
     &:focus, &:hover, &:active, &.active {
-      //background-color: darken( $color, 20% );
-      //color: #2C3E50;
-      //color: darken( $color, 20% );
       height: 30px;
       border-bottom: 5px $color solid;
     }
@@ -51,12 +47,7 @@
   @include media($small-display) {
     margin-right: 40px;
     width: auto;
-
   }
-
-  //  @include media($medium-display) {
-  //    width: 100px;
-  //  }
 }
 
 .nav-icon {
@@ -87,11 +78,8 @@
 
 .banner {
   display: block;
-  //height: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
-  //margin-bottom: 20px;
-  //padding-bottom:20px;
   width: 100%;
   min-height: 20px;
 
@@ -290,32 +278,12 @@ body {
   color: $publication-color
 }
 
-/*@mixin page-title($color) {
-  @include span-columns(12);
-  @include omega();
-  color: $color;
-  background-color: tint($color,95%);
-  padding: 30px 0px 0px 0px;
-  border-bottom: 4px $color solid;
-  margin-bottom: 20px;
-
-  h1 {
-    font-family: $page-title-font-family;
-    font-weight: $page-title-font-weight;
-    font-style: $page-title-font-style;
-    font-size: $page-title-font-size;
-    border-bottom: none;
-    margin-bottom: 0px;
-  }
-}*/
 
 @mixin page-title($color) {
   @include span-columns(12);
   @include omega();
   color: $color;
-  //background-color: tint($color,95%);
   padding: 0px 0px 0px 0px;
-  //border-bottom: 4px $color solid;
   margin-bottom: 20px;
 
   h1 {
@@ -399,38 +367,18 @@ body {
 @mixin dotted-link-underline() {
   a {
     transition: border-bottom-color 0.2s ease-in-out;
-    //color: #444;
-    //color: $blue2;
     position: relative;
     text-decoration: none;
-    border-bottom: dotted 1px #E64C3C; //note: use of :after code below unfortuenatly doesn't work with line breaks... using fall-back
+    border-bottom: dotted 1px #E64C3C;
   }
   a:hover {
     border-bottom-color: transparent;
   }
-
-  //  a:after{
-  //    position: absolute;
-  //    left: 0;
-  //    bottom: 2px;
-  //    content: '';
-  //    width: 100%;
-  //    border-bottom-width: 1px;
-  //    border-bottom-style: dotted;
-  //    display: inline;
-  //	color: #E64C3C;
-  //  }
-  //  a:hover:after{
-  //	color: transparent;
-  //  }
-
 }
 
 @mixin reverse-dotted-link-underline() {
   a {
     transition: border-bottom-color 0.2s ease-in-out;
-    //color: #444;
-    //color: $blue2;
     position: relative;
     text-decoration: none;
     border-bottom: dotted 1px transparent;
@@ -755,12 +703,6 @@ a.project-website {
   
   }
 
-  /*.post-list-excerpt {
-      height:160px;
-      overflow:hidden;
-  }*/
-
-
 
 // author and date for a blog post
 .post-meta {
@@ -957,38 +899,6 @@ a.project-website {
 }
 
 
-/*.paper-title {
-	font-family:$condensed-font-family;
-	color:$blue2;
-	font-weight:700;
-	a{
-	font-weight:700;
-	}
-}*/
-
-
-// Uncomment this for a sticky footer.
-//
-/*
-.wrapper-for-content-outside-of-footer {
-   min-height: 100%;
-   height: auto !important;
-   height: 100%;
-   margin: 0 auto -4em;
-}
-
-html, body {
-  height: 100%;
-}
-
-.footer-2, .push {
-   height: 17em;
-
-   @include media($large-screen) {
-     height: 4em;
-   }
-}
-*/
 
 $footer-border-color: $light-gray;
 
