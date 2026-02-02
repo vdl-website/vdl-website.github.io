@@ -1,6 +1,4 @@
 // Typography
-$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$georgia: Georgia, Cambria, 'Times New Roman', Times, serif;
 $sans-serif: $helvetica;
 $serif: $georgia;
 $base-font-family: $sans-serif;
@@ -8,10 +6,9 @@ $base-font-family: $sans-serif;
 // Sizes
 $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.4;
-$unitless-line-height: 1.4;
+$unitless-line-height: strip-units($base-line-height);
 $title-line-height: $base-font-size * 1.25;
-// Assumes 16px base font size: 3px / 16px = 0.1875em
-$base-border-radius: 0.1875em;
+$base-border-radius: em(3);
 
 
 // Colors

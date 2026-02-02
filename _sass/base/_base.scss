@@ -4,11 +4,16 @@
 // Variables
 @import 'variables';
 
-// Grid Settings
+// Neat Settings -- uncomment if using Neat -- must be imported before Neat
 @import 'grid-settings';
 
-// Mixins (must come before extends that use them)
+// Mixins
 @import 'mixins/flash';
+
+// Extends
+@import 'extends/button';
+@import 'extends/clearfix';
+@import 'extends/hide-text';
 
 // Typography and Elements
 @import 'typography';
