@@ -10,10 +10,19 @@ $small-display: "(max-width: 749px)";
 $medium-display: "(min-width: 750px) and (max-width: 1199px)";
 $large-display: "(min-width: 1200px)";
 
+// Variable for all text input types
+$all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]';
+
 // Media query mixin
 @mixin media($breakpoint) {
-  @media #{$breakpoint} {
-    @content;
+  @if type-of($breakpoint) == 'string' {
+    @media #{$breakpoint} {
+      @content;
+    }
+  } @else {
+    @media (min-width: $breakpoint) {
+      @content;
+    }
   }
 }
 
@@ -88,4 +97,23 @@ $large-display: "(min-width: 1200px)";
     width: nth($size, 1);
     height: nth($size, 2);
   }
+}
+
+// Hide text mixin - for image replacement
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+// Box sizing mixin - modern CSS (no vendor prefixes needed)
+@mixin box-sizing($box-model: border-box) {
+  box-sizing: $box-model;
+}
+
+// Appearance mixin - modern CSS (minimal prefixing)
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
 }

@@ -1,9 +1,9 @@
 ---
 ---
 
-@import '../_sass/base/base';
-@import '../_sass/modern-grid';
-@import '../_sass/base/cards';
+@import 'modern-grid';
+@import 'base/base';
+@import 'base/cards';
 
 @import './syntax_highlight.css';
 
@@ -1255,7 +1255,7 @@ pre.bibtex {
 }
 
 // team page in separate sass file
-@import '../_sass/team';
+@import 'team';
 
 .social {
   padding: 15px;
