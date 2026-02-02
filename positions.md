@@ -1,11 +1,11 @@
 ---
 layout: positions
-title: Open Positions | Vis Design Lab
+title: Positions | Vis Design Lab
 tag: positions
 permalink: /positions/
 ---
 
-## Current Openings
+<!-- ## Current Openings
 
 We are currently seeking a **Postdoctoral Researcher** in data visualization.  
 **Application deadline:** August 27, 2025
@@ -13,7 +13,7 @@ We are currently seeking a **Postdoctoral Researcher** in data visualization.
 For full details and application instructions, please visit the [official job posting](https://jobs.tugraz.at/en/jobs/bf51ab70-8f5e-885b-52cf-685aa426c346)
 
 We are also planning to **recruit new PhD students** soon. If you're interested in pursuing a PhD with us, we encourage you to [get in touch](mailto:alex@visdesignlab.net) early to discuss potential opportunities.
-
+-->
 
 ## General Information
 
