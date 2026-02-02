@@ -1,21 +1,11 @@
 ---
 ---
 
-@import '../_sass/bourbon/bourbon';
 @import '../_sass/base/base';
-@import '../_sass/neat/neat';
-
+@import '../_sass/modern-grid';
 @import '../_sass/base/cards';
 
 @import './syntax_highlight.css';
-
-$small-display-columns: 4;
-$medium-display-columns: 12;
-$large-display-columns: 12;
-
-$small-display: new-breakpoint(max-width 749px $small-display-columns);
-$medium-display: new-breakpoint(min-width 750px max-width 1199px $medium-display-columns);
-$large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
 /* site specific changes that do not fit into base */
 
@@ -408,9 +398,6 @@ body {
 
 @mixin dotted-link-underline() {
   a {
-    -moz-transition: border-bottom-color 0.2s ease-in-out;
-    -webkit-transition: border-bottom-color 0.2s ease-in-out;
-    -ms-transition: border-bottom-color 0.2s ease-in-out;
     transition: border-bottom-color 0.2s ease-in-out;
     //color: #444;
     //color: $blue2;
@@ -441,9 +428,6 @@ body {
 
 @mixin reverse-dotted-link-underline() {
   a {
-    -moz-transition: border-bottom-color 0.2s ease-in-out;
-    -webkit-transition: border-bottom-color 0.2s ease-in-out;
-    -ms-transition: border-bottom-color 0.2s ease-in-out;
     transition: border-bottom-color 0.2s ease-in-out;
     //color: #444;
     //color: $blue2;
@@ -847,21 +831,14 @@ a.project-website {
 
 
 @mixin desaturation($percentage) {
-  -webkit-filter: grayscale($percentage);
-  -moz-filter: grayscale($percentage);
   filter: grayscale($percentage);
 }
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
   border-radius: $radius;
 }
 
 @mixin box-shadow($top, $left, $blur, $color, $inset:"") {
-  -webkit-box-shadow: $top $left $blur $color #{$inset};
-  -moz-box-shadow: $top $left $blur $color #{$inset};
   box-shadow: $top $left $blur $color #{$inset};
 }
 

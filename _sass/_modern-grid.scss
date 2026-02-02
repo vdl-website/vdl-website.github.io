@@ -1,0 +1,91 @@
+// Modern Grid System - Replacement for Bourbon Neat
+// Using CSS Grid and Flexbox instead of float-based layouts
+
+// Breakpoint definitions (matching original Neat breakpoints)
+$small-display-columns: 4;
+$medium-display-columns: 12;
+$large-display-columns: 12;
+
+$small-display: "(max-width: 749px)";
+$medium-display: "(min-width: 750px) and (max-width: 1199px)";
+$large-display: "(min-width: 1200px)";
+
+// Media query mixin
+@mixin media($breakpoint) {
+  @media #{$breakpoint} {
+    @content;
+  }
+}
+
+// Outer container mixin - creates a grid container
+@mixin outer-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0;
+  width: 100%;
+}
+
+// Span columns mixin - defines how many columns an element spans
+@mixin span-columns($span) {
+  // Parse different formats: "8", "8 of 12", "49 of 100"
+  $columns: $span;
+  $total: 12;
+  
+  @if type-of($span) == 'list' {
+    $columns: nth($span, 1);
+    @if length($span) > 2 {
+      $total: nth($span, 3);
+    }
+  }
+  
+  // Calculate percentage for flexbox fallback
+  $percentage: percentage($columns / $total);
+  
+  // Use width for float-based layout compatibility
+  width: calc(#{$percentage} - 0.1%);
+  float: left;
+  margin-right: 0.1%;
+}
+
+// Omega mixin - removes right margin on last column
+@mixin omega($nth: null) {
+  @if $nth != null {
+    &:nth-child(#{$nth}) {
+      margin-right: 0;
+    }
+  } @else {
+    margin-right: 0;
+  }
+}
+
+// Clearfix for float-based layouts
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Modern CSS replacements for Bourbon mixins
+
+// Transition mixin - modern CSS3 (no vendor prefixes needed)
+@mixin transition($properties) {
+  transition: $properties;
+}
+
+// Transform mixin - modern CSS3 (no vendor prefixes needed)
+@mixin transform($transforms) {
+  transform: $transforms;
+}
+
+// Size mixin - set width and height
+@mixin size($size) {
+  @if type-of($size) == 'number' {
+    width: $size;
+    height: $size;
+  } @else if length($size) == 2 {
+    width: nth($size, 1);
+    height: nth($size, 2);
+  }
+}
