@@ -120,7 +120,8 @@ layout: default
     <br>
     {{ page.position}} <br>
     <p> 
-        <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/{{page.primary_affiliation}}-full.svg"/>
+        {% assign primary_affiliation = page.primary_affiliation | default: "utah" %}
+        <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/{{primary_affiliation}}-full.svg"/>
         {% if page.key == "lex" %}
             <img class="affiliation-logo-medium" src="{{site.baseurl}}/assets/images/logos/utah-full.svg"/>
         {% endif %}
