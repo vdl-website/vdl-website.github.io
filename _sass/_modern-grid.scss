@@ -10,8 +10,21 @@ $small-display: "(max-width: 749px)";
 $medium-display: "(min-width: 750px) and (max-width: 1199px)";
 $large-display: "(min-width: 1200px)";
 
-// Variable for all text input types
-$all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]';
+// Variable for all text input types (multiline for readability)
+$all-text-inputs: 'input[type="color"], ' +
+                  'input[type="date"], ' +
+                  'input[type="datetime"], ' +
+                  'input[type="datetime-local"], ' +
+                  'input[type="email"], ' +
+                  'input[type="month"], ' +
+                  'input[type="number"], ' +
+                  'input[type="password"], ' +
+                  'input[type="search"], ' +
+                  'input[type="tel"], ' +
+                  'input[type="text"], ' +
+                  'input[type="time"], ' +
+                  'input[type="url"], ' +
+                  'input[type="week"]';
 
 // Media query mixin
 @mixin media($breakpoint) {
@@ -27,6 +40,8 @@ $all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime
 }
 
 // Outer container mixin - creates a grid container
+// Note: gap is 0 because spacing is handled by margins in span-columns
+// for backwards compatibility with the float-based layout
 @mixin outer-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -35,6 +50,8 @@ $all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime
 }
 
 // Span columns mixin - defines how many columns an element spans
+// Note: Uses float-based layout for backwards compatibility with existing styles
+// A future refactor could convert this to use CSS Grid's grid-column property
 @mixin span-columns($span) {
   // Parse different formats: "8", "8 of 12", "49 of 100"
   $columns: $span;
@@ -47,7 +64,7 @@ $all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime
     }
   }
   
-  // Calculate percentage for flexbox fallback
+  // Calculate percentage for float-based layout
   $percentage: percentage($columns / $total);
   
   // Use width for float-based layout compatibility
@@ -100,6 +117,7 @@ $all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime
 }
 
 // Hide text mixin - for image replacement
+// Note: Uses text-indent method for simplicity and compatibility
 @mixin hide-text {
   overflow: hidden;
   text-indent: 101%;
@@ -111,9 +129,9 @@ $all-text-inputs: 'input[type="color"], input[type="date"], input[type="datetime
   box-sizing: $box-model;
 }
 
-// Appearance mixin - modern CSS (minimal prefixing)
+// Appearance mixin - modern CSS
+// Note: -webkit prefix still needed for Safari compatibility
 @mixin appearance($value) {
   -webkit-appearance: $value;
-  -moz-appearance: $value;
   appearance: $value;
 }

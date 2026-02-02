@@ -10,7 +10,8 @@ $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.4;
 $unitless-line-height: 1.4;
 $title-line-height: $base-font-size * 1.25;
-$base-border-radius: 0.1875em; // 3px converted to em
+// Assumes 16px base font size: 3px / 16px = 0.1875em
+$base-border-radius: 0.1875em;
 
 
 // Colors
