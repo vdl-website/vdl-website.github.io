@@ -10,11 +10,6 @@
 // Mixins (must come before extends that use them)
 @import 'mixins/flash';
 
-// Extends
-@import 'extends/button';
-@import 'extends/clearfix';
-@import 'extends/hide-text';
-
 // Typography and Elements
 @import 'typography';
 @import 'forms';

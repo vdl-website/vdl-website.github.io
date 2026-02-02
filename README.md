@@ -74,25 +74,14 @@ top of both Markdown and HTML pages. Check the Jekyll and [Liquid template
 syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 documentation for further details.
 
-The CSS is built using [SASS](http://www.sass-lang.com) along with several SASS
-tools: [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), and
-[Bitters](http://bitters.bourbon.io). SASS provides imports, variables, mixins
-(functions), and nested CSS so you can write better stylesheets. The additional
-tools provide grid layouts, vendor prefixing, and preset styles, and they are
-preloaded into the repository.
-
+The CSS is built using [SASS](http://www.sass-lang.com). SASS provides imports, variables, mixins
+(functions), and nested CSS so you can write better stylesheets. The site now uses
+a modern, custom grid system based on CSS Grid and Flexbox instead of outdated libraries.
 
 You can modify the CSS or SASS directly, since Jekyll builds it for you. The
-main site SASS file is in `css/site.scss`, which imports all other files,
-including the SASS tools in the `_sass` directory.
-
-
-Unfortunately, changes to the code have been made throughout the SASS tools, so
-the SASS tools should not be upgraded. In the future, I would recommend
-rewriting the stylesheets (from scratch or through the Jekyll-compiled output
-CSS) so that you just use SASS and more modern CSS3 features like media queries
-and variables.
-
+main site SASS file is in `css/site.scss`, which imports all other files from the `_sass` directory.
+The modern grid system and reusable mixins are in `_sass/_modern-grid.scss`, and base styles
+are in `_sass/base/`.
 
 
 ## GitHub Pages and Jekyll

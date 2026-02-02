@@ -1,10 +1,24 @@
 button,
 input[type="submit"] {
-  @extend %button;
-  @include appearance(none);
+  -webkit-font-smoothing: antialiased;
+  background-color: $base-button-color;
+  border-radius: $base-border-radius;
+  color: white;
+  display: inline-block;
+  font-size: $base-font-size;
+  font-weight: bold;
+  line-height: 1;
+  padding: .75em 1em;
+  text-decoration: none;
+  appearance: none;
   border: none;
   cursor: pointer;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+
+  &:hover {
+    background-color: $hover-button-color;
+    color: white;
+  }
 }
