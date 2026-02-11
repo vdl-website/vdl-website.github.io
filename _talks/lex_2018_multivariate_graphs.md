@@ -3,8 +3,8 @@ speaker: lex
 title: "Layout Adaption Strategies for Visualizing Multivariate Networks"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2018-06-18_Lex_Multivariate_Networks.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2018-06-18_Lex_Multivariate_Networks.pdf
+slides-key: 2018-06-18_Lex_Multivariate_Networks.key
+slides-pdf: 2018-06-18_Lex_Multivariate_Networks.pdf
 slides-ppt:
 # Anything you want to say about this talk
 note:

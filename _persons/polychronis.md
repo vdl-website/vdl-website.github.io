@@ -20,7 +20,6 @@ graduated: PhD rotation '20
 # stuff below can be ignored if you don't use the group website for your private website
 
 gh: https://github.com/colepolychronis
-# cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 address: |
     School of Computing, University of Utah <br>
     50 S. Central Campus Drive <br>

@@ -3,8 +3,8 @@ speaker: lex
 title: "A Hodgepodge of Visualization Research: Provenance, User Studies, Misinformation"
 # paper | invited | keynote | tutorial | panel
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2024-06-03_hodgepodge.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2024-06-03_hodgepodge.pdf
+slides-key: 2024-06-03_hodgepodge.key
+slides-pdf: 2024-06-03_hodgepodge.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk

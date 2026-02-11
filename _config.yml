@@ -15,7 +15,9 @@ use_analytics: true
 # publications are shown as recent on the front page for years strictly great than this year
 recent_pub_year: 2021
 
-paper_content_url: https://sci.utah.edu/~vdl/papers/
+paper_content_url: https://visdesignlab.tugraz.at/papers/
+talk_content_url: https://visdesignlab.tugraz.at/talks/
+file_store_url: https://visdesignlab.tugraz.at/
 
 plugins:
   - jekyll-redirect-from

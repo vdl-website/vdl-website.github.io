@@ -3,7 +3,7 @@ speaker: lex
 title: "Visualizing Biomolecular Data with the Caleydo Framework"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-pdf: https://sci.utah.edu/~vdl/talks/2011_08_12_CBMI_Harvard_Boston.pdf 
+slides-pdf: 2011_08_12_CBMI_Harvard_Boston.pdf 
 date: 2011-08-12
 
 held:  

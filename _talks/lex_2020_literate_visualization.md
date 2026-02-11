@@ -3,8 +3,8 @@ speaker: lex
 title: "Literate Visualization: Making  Visual Analysis Sessions Reproducible and Reusable"
 # paper | invited | keynote | tutorial | panel
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2021-11-11_Lex_Literate_Visualization.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2021-11-11_Lex_Literate_Visualization.pdf
+slides-key: 2021-11-11_Lex_Literate_Visualization.key
+slides-pdf: 2021-11-11_Lex_Literate_Visualization.pdf
 slides-ppt: 
 video: https://www.youtube.com/watch?v=FxuVEBvp0U8
 # Anything you want to say about this talk

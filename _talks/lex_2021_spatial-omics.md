@@ -3,8 +3,8 @@ speaker: lex
 title: "Spatial Omics Visualizations: Lessons Learned from Networks and Maps"
 # paper | invited | keynote | tutorial | panel
 type: keynote
-slides-key: https://sci.utah.edu/~vdl/talks/2021-10-25_Lex_BioVis_Spatial_Omics.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2021-10-25_Lex_BioVis_Spatial_Omics.pdf
+slides-key: 2021-10-25_Lex_BioVis_Spatial_Omics.key
+slides-pdf: 2021-10-25_Lex_BioVis_Spatial_Omics.pdf
 slides-ppt: 
 # Anything you want to say about this talk
 note:

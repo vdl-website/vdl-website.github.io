@@ -3,7 +3,7 @@ speaker: lex
 title: "Visualizing the Effects of Logically Combined Filters"
 # paper | invited | keynote | tutorial |
 type: paper
-slides-pdf: https://sci.utah.edu/~vdl/talks/2011_IV_Geymayer_VisualizingEffectsOfLogicallyCombinedFilters_slides.pdf
+slides-pdf: 2011_IV_Geymayer_VisualizingEffectsOfLogicallyCombinedFilters_slides.pdf
 date: 2011-07-14
 
 held:  

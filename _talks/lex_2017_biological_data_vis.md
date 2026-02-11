@@ -3,8 +3,8 @@ speaker: lex
 title: "Visualizing Biological Data: Pathway Graphs, Genealogies, and Alternative Splicing"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2017-06-14_Vis_Bio_Data.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2017-06-14_Vis_Bio_Data.pdf
+slides-key: 2017-06-14_Vis_Bio_Data.key
+slides-pdf: 2017-06-14_Vis_Bio_Data.pdf
 slides-ppt:
 # Anything you want to say about this talk
 note:

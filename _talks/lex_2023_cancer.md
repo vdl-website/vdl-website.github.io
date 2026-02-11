@@ -4,8 +4,8 @@ title: "Visualization in Oncological Data Science Now
 and in the Future: From Cancer Cell Microscopy to Reproducible Visual Analysis"
 # paper | invited | keynote | tutorial | panel
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2023-02-28_ODSI.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2023-02-28_ODSI.pdf
+slides-key: 2023-02-28_ODSI.key
+slides-pdf: 2023-02-28_ODSI.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk
