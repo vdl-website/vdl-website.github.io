@@ -24,4 +24,7 @@ held:
  - Goldman Sachs Tech Expo, Salt Lake City, UT, USA, 2020-07-24.
  - Utah Center for Data Science Seminar, Salt Lake City, UT, USA, 2020-01-06.
 
+abstract: "Interactive visualization is an important part of the data science process. It enables analysts to directly interact with the data, exploring it with minimal effort. Unlike code, however, an interactive visualization session is ephemeral and can't be easily shared, revisited, or reused. Computational notebooks, such as Jupyter Notebooks, R Markdown, or Observable are widely used in data science. These notebooks are an embodiment of Knuth's “Literate Programming”, where the logic of a program is explained in natural language, figures, and equations. As a consequence, they are both reproducible, and reusable. 
+In this talk, I will sketch approaches to “Literate Visualization”. I will show how we can leverage provenance data of an analysis session to create well-documented and annotated visualization stories that enable reproducibility and sharing. I will also introduce work on inferring analysis goals, which allows us to understand the analysis process at a higher level. Understanding analysis goals enables us to enhance interaction capabilities and even re-used visual analysis processes. I will conclude by demonstrating how this provenance data can be leveraged to bridge between computational and interactive environments."
+
 ---

@@ -12,8 +12,8 @@ date: 2018-06-18
 
 held:  
  - University of Calgary, Calgary, AB, Canada, 2018-06-18.
+abstract: "When visualizing multivariate networks we commonly have to make trade-offs between optimizing for the readability of a network's topology and the attributes associated with its nodes and or edges. In this talk I will first introduce the design space of multivariate network visualization, and then go into details about one strategy: layout adaption. I will give examples that demonstrate that different layout adaption strategies occupy a sweet-spot on the continuum between layouts optimized for attributes and topology. I will show examples for general purpose networks, such as co-author networks and for special graph types such as tree-like genealogies."
 ---
- When visualizing multivariate networks we commonly have to make trade-offs between optimizing for the readability of a network's topology and the attributes associated with its nodes and or edges. In this talk I will first introduce the design space of multivariate network visualization, and then go into details about one strategy: layout adaption. I will give examples that demonstrate that different layout adaption strategies occupy a sweet-spot on the continuum between layouts optimized for attributes and topology. I will show examples for general purpose networks, such as co-author networks and for special graph types such as tree-like genealogies.
 
 
 

@@ -1340,3 +1340,39 @@ pre.bibtex {
   line-height: 18px;
   overflow: hidden;
 }
+/* Talk abstract expandable section */
+.talk-abstract-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.talk-abstract-toggle {
+  background-color: transparent;
+  border: 1px solid #999;
+  color: #666;
+  padding: 2px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+  transition: all 150ms ease;
+
+  &:hover {
+    background-color: #f5f5f5;
+    border-color: #666;
+    color: #333;
+  }
+
+  &:active {
+    background-color: #eee;
+  }
+}
+
+.talk-abstract {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #f9fbfc;
+  border-left: 3px solid #3376A0;
+  line-height: 1.6;
+}
