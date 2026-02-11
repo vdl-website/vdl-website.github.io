@@ -15,8 +15,3 @@ held:
  - University of St. Andrews, St. Andrews, Scotland, 2014-11-03. 
 
 ---
-
-
-
-
-

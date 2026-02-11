@@ -1,6 +1,9 @@
 <div class="talk">
     <p >
         <b>{{talk.title }}</b>
+        {% if talk.abstract %}
+        <button class="talk-abstract-toggle" aria-expanded="false">abstract</button>
+        {% endif %}
         <span style="float:right">
         {% if talk.video %}
         <a href="{{ site.talk_content_url }}{{talk.video}}">Video</a> |
@@ -18,6 +21,15 @@
         {% if talk.note %}
         {{ talk.note }}
         {% endif %}
+
+        <!-- abstract with expandable/collapsible functionality -->
+        {% if talk.abstract %}
+        <div class="talk-abstract-wrapper">
+            <div class="talk-abstract" hidden>
+                <b>Abstract: </b>{{ talk.abstract }}
+            </div>
+        </div>
+        {% endif %}
         <div class="talk-entry">
         {% for instance in talk.held %}
         {{ instance  | markdownify}} 
@@ -25,3 +37,25 @@
         </div>
     </p>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggles = document.querySelectorAll('.talk-abstract-toggle');
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+            const talk = this.closest('.talk');
+            const wrapper = talk.querySelector('.talk-abstract-wrapper');
+            const abstract = wrapper.querySelector('.talk-abstract');
+            const isHidden = abstract.hasAttribute('hidden');
+            
+            if (isHidden) {
+                abstract.removeAttribute('hidden');
+                this.setAttribute('aria-expanded', 'true');
+            } else {
+                abstract.setAttribute('hidden', '');
+                this.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
+});
+</script>
