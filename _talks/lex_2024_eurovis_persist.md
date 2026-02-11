@@ -3,8 +3,8 @@ speaker: lex
 title: "Persist: Persistent and Reusable Interactions in Computational Notebooks"
 # paper | invited | keynote | tutorial | panel
 type: paper
-slides-key: https://sci.utah.edu/~vdl/talks/2024-05-29_EuroVis_Persist.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2024-05-29_EuroVis_Persist.pdf
+slides-key: 2024-05-29_EuroVis_Persist.key
+slides-pdf: 2024-05-29_EuroVis_Persist.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk

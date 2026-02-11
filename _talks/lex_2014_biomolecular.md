@@ -3,8 +3,8 @@ speaker: lex
 title: "Visualization Approaches for Biomolecular Data"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-ppt: https://sci.utah.edu/~vdl/talks/2014-04-08_Visualization_Approaches_for_Biomolecular_Data.pptx
-slides-pdf: https://sci.utah.edu/~vdl/talks/2014-04-08_Visualization_Approaches_for_Biomolecular_Data.pdf
+slides-ppt: 2014-04-08_Visualization_Approaches_for_Biomolecular_Data.pptx
+slides-pdf: 2014-04-08_Visualization_Approaches_for_Biomolecular_Data.pdf
 date: 2014-04-08
 
 held:  

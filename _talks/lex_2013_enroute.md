@@ -3,8 +3,8 @@ speaker: lex
 title: "enRoute: Dynamic Path Extraction from Biological Pathway Maps for Exploring Heterogeneous Experimental Datasets"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-ppt: https://sci.utah.edu/~vdl/talks/2014-10-08_Entourage_Pathways.pptx
-slides-pdf: https://sci.utah.edu/~vdl/talks/2014-10-08_Entourage_Pathways.pdf
+slides-ppt: 2014-10-08_Entourage_Pathways.pptx
+slides-pdf: 2014-10-08_Entourage_Pathways.pdf
 date: 2013-04-10
 
 held:  

@@ -3,8 +3,8 @@ speaker: lex
 title: "Enabling Scientific Discovery through Interactive Visual Data Analysis"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-ppt: https://sci.utah.edu/~vdl/talks/2014-12-03_Interactive_Data_Analysis.pptx
-slides-pdf: https://sci.utah.edu/~vdl/talks/2014-12-03_Interactive_Data_Analysis.pdf
+slides-ppt: 2014-12-03_Interactive_Data_Analysis.pptx
+slides-pdf: 2014-12-03_Interactive_Data_Analysis.pdf
 date: 2015-08-07
 
 held:  

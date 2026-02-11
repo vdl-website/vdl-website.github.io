@@ -3,8 +3,8 @@ speaker: lex
 title: "The reVISit User Study Platform and Applications in Studying Misinformation"
 # paper | invited | keynote | tutorial | panel
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2024-12-13_MIT.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2024-12-13_MIT.pdf
+slides-key: 2024-12-13_MIT.key
+slides-pdf: 2024-12-13_MIT.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk

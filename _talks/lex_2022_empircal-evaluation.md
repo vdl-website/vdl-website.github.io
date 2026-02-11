@@ -3,8 +3,8 @@ speaker: lex
 title: "Empirical Evaluation of Complex Interactive Visualization Techniques"
 # paper | invited | keynote | tutorial | panel
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2022-06-03_Lex_Empirical-Evaluation.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2022-06-03_Lex_Empirical-Evaluation.pdf
+slides-key: 2022-06-03_Lex_Empirical-Evaluation.key
+slides-pdf: 2022-06-03_Lex_Empirical-Evaluation.pdf
 slides-ppt: 
 video: https://www.youtube.com/watch?v=wvEhl-iee1o 
 # Anything you want to say about this talk

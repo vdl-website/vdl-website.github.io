@@ -3,8 +3,8 @@ speaker: lex
 title: "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-key: https://sci.utah.edu/~vdl/talks/2018-05-16_Lex_Genealogies.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2018-05-16_Lex_Genealogies.pdf
+slides-key: 2018-05-16_Lex_Genealogies.key
+slides-pdf: 2018-05-16_Lex_Genealogies.pdf
 slides-ppt:
 # Anything you want to say about this talk
 note:

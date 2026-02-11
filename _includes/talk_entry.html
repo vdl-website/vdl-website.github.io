@@ -3,16 +3,16 @@
         <b>{{talk.title }}</b>
         <span style="float:right">
         {% if talk.video %}
-        <a href="{{talk.video}}">Video</a> |
+        <a href="{{ site.talk_content_url }}{{talk.video}}">Video</a> |
         {% endif %}
         {% if talk.slides-key %}
-        <a href="{{talk.slides-key}}">Key</a> |
+        <a href="{{ site.talk_content_url }}{{talk.slides-key}}">Key</a> |
         {% endif %}
         {% if talk.slides-ppt %}
-        <a href="{{talk.slides-ppt}}">PPT</a> |
+        <a href="{{ site.talk_content_url }}{{talk.slides-ppt}}">PPT</a> |
         {% endif %}
         {% if talk.slides-pdf %}
-        <a href="{{talk.slides-pdf}}">PDF</a>
+        <a href="{{ site.talk_content_url }}{{talk.slides-pdf}}">PDF</a>
         {% endif %}
         </span> <br>
         {% if talk.note %}

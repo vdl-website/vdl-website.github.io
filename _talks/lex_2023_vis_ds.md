@@ -3,8 +3,8 @@ speaker: lex
 title: "Visualization in Data Science: Challenges and Opportunities"
 # paper | invited | keynote | tutorial | panel
 type: keynote
-slides-key: https://sci.utah.edu/~vdl/talks/2023-06-12_ICG_visual-ds.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2023-06-12_ICG_visual-ds.pdf
+slides-key: 2023-06-12_ICG_visual-ds.key
+slides-pdf: 2023-06-12_ICG_visual-ds.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk

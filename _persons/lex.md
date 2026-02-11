@@ -20,7 +20,7 @@ graduated:
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 github: https://github.com/alexsb
 twitter:
-cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+cv: https://visdesignlab.tugraz.at/files/cv_alexander_lex.pdf
 room: "DH 03 180"
 primary_affiliation: tug
 office_hours:

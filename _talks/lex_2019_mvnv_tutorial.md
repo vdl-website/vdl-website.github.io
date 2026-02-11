@@ -4,8 +4,8 @@ title: "Visualizing Multivariate Networks"
 # paper | invited | keynote | tutorial |
 type: tutorial
 slides-ppt: 
-slides-pdf: https://sci.utah.edu/~vdl/talks/2019-10-20_tutorial_mvnv_slides.pdf
-slides-key: https://sci.utah.edu/~vdl/talks/2019-10-20_tutorial_mvnv_slides.key
+slides-pdf: 2019-10-20_tutorial_mvnv_slides.pdf
+slides-key: 2019-10-20_tutorial_mvnv_slides.key
 other:  
 date:  2019-10-20
 note:  Carolina Nobre, Marc Streit, and Alexander Lex <br> <a href="https://vdl.sci.utah.edu/mvnv/">Companion Website</a>

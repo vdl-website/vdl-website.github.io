@@ -4,8 +4,8 @@ title: "UpSet: Visualization of Intersecting Sets"
 # paper | invited | keynote | tutorial |
 type: invited
 slides-key: 
-slides-ppt: https://sci.utah.edu/~vdl/talks/2015-04-23_UpSet.pptx
-slides-pdf: https://sci.utah.edu/~vdl/talks/2015-04-23_UpSet.pdf
+slides-ppt: 2015-04-23_UpSet.pptx
+slides-pdf: 2015-04-23_UpSet.pdf
 date: 2015-04-23
 
 held:

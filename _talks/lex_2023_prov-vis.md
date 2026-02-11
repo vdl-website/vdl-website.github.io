@@ -3,8 +3,8 @@ speaker: lex
 title: "Provenance as a Bridge Between Data Analysis Modalities"
 # paper | invited | keynote | tutorial | panel
 type: keynote
-slides-key: https://sci.utah.edu/~vdl/talks/2023-10-23_provvis.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2023-10-23_provvis.pdf
+slides-key: 2023-10-23_provvis.key
+slides-pdf: 2023-10-23_provvis.pdf
 slides-ppt: 
 video:
 # Anything you want to say about this talk

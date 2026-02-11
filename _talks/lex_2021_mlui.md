@@ -3,8 +3,8 @@ speaker: lex
 title: "Opportunities for Understanding  Semantics of User Interactions"
 # paper | invited | keynote | tutorial | panel
 type: keynote
-slides-key: https://sci.utah.edu/~vdl/talks/2021-10_24_Lex_Semantics_UI.key
-slides-pdf: https://sci.utah.edu/~vdl/talks/2021-10_24_Lex_Semantics_UI.pdf
+slides-key: 2021-10_24_Lex_Semantics_UI.key
+slides-pdf: 2021-10_24_Lex_Semantics_UI.pdf
 slides-ppt: 
 # Anything you want to say about this talk
 note:
