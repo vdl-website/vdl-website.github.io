@@ -6,7 +6,8 @@
         {% endif %}
         <span style="float:right">
         {% if talk.video %}
-        <a href="{{ site.talk_content_url }}{{talk.video}}">Video</a> |
+        <!-- this is typically a youtube link -->
+        <a href="{{talk.video}}">Video</a> |
         {% endif %}
         {% if talk.slides-key %}
         <a href="{{ site.talk_content_url }}{{talk.slides-key}}">Key</a> |

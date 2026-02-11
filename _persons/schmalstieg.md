@@ -9,5 +9,5 @@ email: schmalstieg@icg.tugraz.at
 image: /assets/images/people/schmalstieg.jpg
 organization: Graz University of Technology
 position: Professor
-website: https://www.tugraz.at/institute/icg/research/team-schmalstieg/
+website: https://schmalstieg.github.io/
 ---
