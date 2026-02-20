@@ -9,6 +9,7 @@ order: 2025-8
 
 #paper_content_url: 
 
+blog-post: 2025/11/10/ieee-vis-award/
 
 # The shortname is used for auto-generated titels
 shortname: ReVISit
@@ -51,7 +52,7 @@ bib:
   url: 
   volume: 32
   number: 1
-  pages: 1–11
+  pages: 13-23
   month: jan
 
 # Link to an official preprint server

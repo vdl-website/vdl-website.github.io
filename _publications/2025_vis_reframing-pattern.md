@@ -40,7 +40,7 @@ bib:
   url: 
   volume: 32
   number: 1
-  pages: 1–11
+  pages: 210–220
   month: jan
 
 preprint_server: https://arxiv.org/abs/2508.02639
