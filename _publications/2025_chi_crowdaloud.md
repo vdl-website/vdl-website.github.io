@@ -9,6 +9,7 @@ order: 2025-1
 shortname: CrowdaAloud
 image: 2025_chi_crowdaloud.png
 image_large: 2025_chi_crowdaloud_teaser.png
+image_alt_text: "Teaser image showing the revisit interface for analyzing crowdsourced think-aloud data, with the replay interface and a coding interface visible in separate windows."
 
 authors:
   - zcutler

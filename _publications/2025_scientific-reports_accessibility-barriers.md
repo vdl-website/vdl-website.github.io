@@ -17,7 +17,7 @@ shortname: Accessibility Barriers
 image: 2025_scientific-reports_accessibility-barriers.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2025_scientific-reports_accessibility-barriers_teaser.png
-
+image_alt_text: "Infographic illustrating the key findings of the study on accessibility barriers in life sciences data resources. The infographic highlights the prevalence of severe accessibility issues in data portals and journal websites."
 
 external-project: http://inscidar.org/
 

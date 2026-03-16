@@ -18,6 +18,7 @@ shortname: ReVISit
 image: 2025_vis_revisit.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2025_vis_revisit_teaser.png
+image_alt_text: "Teaser picture of the experiment life cycle in revisit, ranging form experiment design, debug & pilot, data collection, analysis, and dissemination. reVISit also provides learning materials and the project emphasizes community support."
 
 images:
   - path: 2025_vis_revisit_texture_study.png

@@ -3,13 +3,19 @@ layout: default
 ---
 <div class="publication">
 
+  {% if page.image_alt_text != nil %}
+  {% assign alt_text = page.image_alt_text %}
+  {% else %}
+  {% assign alt_text = page.shortname | append: " screenshot" %}
+  {% endif %}
+
   <header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></header>
 
   <article class="publication-content-main">
 
     <!-- If we have a large picture, we display it here -->
     {% if page.image_large %}
-    <img id="publication-image-large" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
+      <img id="publication-image-large" alt="{{ alt_text }}" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
     {% endif %}
     {% if page.blog-post %}
         <div class="note">
@@ -148,7 +154,7 @@ layout: default
      <!-- If we don't have a large picture, we display the small one here -->
     {% if page.image_large %}
     {% else %}
-	<img id="publication-image" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image }}">
+      <img id="publication-image" alt="{{ alt_text }}" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image }}">
     {% endif %}
 
     {% if page.project %}

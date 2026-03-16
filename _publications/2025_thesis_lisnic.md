@@ -6,6 +6,7 @@ type: thesis
 
 shortname: Thesis-lisnic
 image: 2025_thesis_lisnic.png
+image_alt_text: "A collage of misleading covid data visualizations." 
 
 authors:
 - lisnic

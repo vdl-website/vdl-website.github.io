@@ -17,6 +17,7 @@ shortname: Tactile Charts
 image: 2025_vis_tactile-charts.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2025_vis_tactile-charts_teaser.png
+image_alt_text: "Photographs of 3D printed tactile charts, including initial designs and the final set. The charts are designed for blind and low-vision individuals to explore through touch, with labels and instructions for understanding the data representation. The chart types are UpSet plots, violin plots, clustered heatmaps, and faceted line charts."
 
 
 external-project: https://vdl.sci.utah.edu/tactile-charts/

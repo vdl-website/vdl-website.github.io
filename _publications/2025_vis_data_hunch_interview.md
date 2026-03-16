@@ -9,6 +9,7 @@ redirect_from: /publications/2023_preprint_data_hunch_interview
 shortname: data_hunch_interview
 image: 2025_vis_data_hunch_interview.png
 image_large: 2025_vis_data_hunch_interview_teaser.png
+image_alt_text: "Teaser image illustrating the how reality relates to the data collected about a phenomenon, and how expert knowledge shapes the analysis and eventually insights gained from the data."
 
 authors:
 - lin

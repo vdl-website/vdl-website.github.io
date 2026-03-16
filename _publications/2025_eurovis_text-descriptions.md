@@ -17,6 +17,7 @@ shortname: Accessible Text Descriptions
 image: 2025_eurovis_text-descriptions.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2025_eurovis_text-descriptions_teaser.png
+image_alt_text: "A screenshot of an upset plot (showing covid symptom co-occurrence) and its corresponding text description. The text description provides a detailed account of the data represented in the plot."
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:

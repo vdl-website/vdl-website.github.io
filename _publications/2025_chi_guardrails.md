@@ -9,6 +9,7 @@ redirect_from: /publications/2024_preprint_guardrails/
 shortname: Guardrails
 image: 2025_chi_guardrails.png
 image_large: 2025_chi_guardrails_teaser.png
+image_alt_text: "Teaser image the design space of guardrails for line charts along the dimensions Layout and Context. Layout refers to superimposition of juxtaposition of guardrails as supplementary marks, context refers to whether the additional information is primary data, or a statistical summary."
 
 authors:
   - lisnic

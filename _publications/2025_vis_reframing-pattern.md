@@ -17,6 +17,7 @@ shortname: Reframing Pattern
 image: 2025_vis_reframing-pattern.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2025_vis_reframing-pattern_teaser.png
+image_alt_text: "Illustration of the design space of patterns as a visual variable."
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:

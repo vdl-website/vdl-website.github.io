@@ -77,6 +77,8 @@ shortname: Pathfinder
 image: 2016_eurovis_pathfinder.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
 image_large: 2016_eurovis_pathfinder_teaser.png
+# Add alt text for the teaser image, which is important for accessibility. If not provided, it will default to "{{ page.shortname }} screenshot. The alt text is used for the large image by default, but if a large image is not present, it's also used for the small image."
+image_alt_text: "Alt text describing the teaser image" 
 
 # Authors in the "database" can be used with just their person "key"
 authors:
