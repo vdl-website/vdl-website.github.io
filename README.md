@@ -1,12 +1,13 @@
 # Vis Design Lab Website
 
+The website is hosted at https://visdesignlab.net 
+
 The Vis Design Lab website is built with [Jekyll](http://jekyllrb.com).
 
 Here is a good cheat sheet: 
 https://gist.github.com/smutnyleszek/9803727
 
 The Liquid Language Reference: https://shopify.github.io/liquid/basics/types/
-
 
 
 ## Setup Jekyll
@@ -21,19 +22,26 @@ Further details on installing Jekyll and its requirements:
 https://jekyllrb.com/docs/installation/
 
 
+
 ### Run Jekyll
 
 ``` shell
-jekyll serve -i
+bundle exec jekyll serve -i
 ```
 
 Running Jekyll in incremental (`-i`) mode is _significantly_ faster.
+The bundle exec makes sure that it's run in the environment available on github. You can find more details on emulating the current GitHub Pages server environment with the following
+installation instructions:
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+
+To install the GitHub Pages gem, you may need to install the Ruby DevKit for
+your operating system.
 
 
 ### View the Generated Site
 
 ``` shell
-open http://0.0.0.0:4000/
+open http://127.0.0.1:4000/
 ```
 
 
@@ -59,7 +67,6 @@ git checkout -b new-branch-name
 git commit -am "make your changes and commit them"
 git push origin new-branch-name
 ```
-
 
 
 ## Modifying the Code
@@ -95,16 +102,6 @@ and variables.
 
 
 
-## GitHub Pages and Jekyll
-
-Installation instructions above for Jekyll will work for the most part, but you
-can also emulate the current GitHub Pages server environment with the following
-installation instructions:
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-
-To install the GitHub Pages gem, you may need to install the Ruby DevKit for
-your operating system.
 
 
 ## Modules
