@@ -4,9 +4,6 @@ The website is hosted at https://visdesignlab.net
 
 The Vis Design Lab website is built with [Jekyll](http://jekyllrb.com).
 
-Here is a good cheat sheet: 
-https://gist.github.com/smutnyleszek/9803727
-
 The Liquid Language Reference: https://shopify.github.io/liquid/basics/types/
 
 
