@@ -180,11 +180,22 @@ This work was co-funded by ....
 ```
 
 
+## Synching with TU Graz Server
+
+Server: `lampz.tugraz.at`
+User: `vdl`
+Path on server: `/home/vdl/public_html/papers`
+
+User Filezilla to connect
+You'll need the TU Graz IT ppl to register your public key. 
+You'll have to enter a password to decrypt your private key. 
+You have to be on campus or use a VPN to connect to the server.
 
 
 
 
-## Syncing with the SCI Server
+
+## Syncing with the SCI Server (Deprecated)
 
 Upload the teaser and the small figure, as well as the paper PDF, any supplement and video to the shared SCI web space at 
 

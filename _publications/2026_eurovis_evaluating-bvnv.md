@@ -1,22 +1,10 @@
 ---
 layout: publication
-# Quotes make the : possible, otherwise you can type this without quotes
 title: "Evaluating Encodings for Bivariate Edges in Adjacency Matrices"
-# Keys must be unique to each paper, see section below for more details
 key: 2026_eurovis_evaluating-bvnv
-# Select one of the options below
 type: paper
-# use this if this paper was previously a preprint and you need to preserve the old URL
-# redirect_from: /publications/2017_preprint_lineage
-# Uncomment the line below for publications which should only appear on a personal webpage
-# personal: y
-
-# Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
-# that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
-# 2019-11 below that paper. Notice that sorting is lexicographic.  
 order: 2026-3
 
-# Auto-generates titles and alt-descriptors
 shortname: Evaluating Bivariate
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
 image: 2026_eurovis_evaluating-bvnv.png
@@ -31,24 +19,9 @@ authors:
 - lex
 - he
 
-# A link to an internal blog post (use only the relative URL)
-# blog-post:
-
-# Include a shortened name for the journal or conference/proceedings. 
-# Generally go for the colloquial name here, so InfoVis, VIS, EuroVis, VAST, CHI, TVCG. 
-# Don't bother with publication format (CGF for EuroVis or TVCG for VIS papers).
-# Don't mention organizations (IEEE, ACM), so VIS, not IEEE VIS, CHI, not ACM CHI.  
-# Do include relevant qualifiers, such as "Short Papers" (VIS Short Papers) or "Posters" (VIS Posters)
-# Don't include a year, or a shorthand for the year, so NOT: InfoVis'14
 journal-short: EuroVis
 year: 2026
 
-# Create BibTeX info, using one of the entry choices
-# Articles have a "journal", and inproceedings have a "booktitle"
-# Preprints are articles with the location of preprint mentioned in "journal"
-# You can remove fields you don't need, or else leave them blank
-# Try to include a DOI, or use the publisher URL below
-# Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
   journal: Computer Graphics Forum (EuroVis)
@@ -63,7 +36,7 @@ bib:
 # publisherURL: 
 
 # Link to an official preprint server
-preprint_server: https://zenodo.org/records/19550960
+preprint_server: https://arxiv.org/abs/2604.14791
 
 # Links to a project hosted on VDL, or else externally on your own site
 # project: 
@@ -78,7 +51,7 @@ external-project: https://jorgeacostaupm.github.io/revisit/
 
 # Provide a preprint and supplement pdf
 pdf: 2026_eurovis_evaluating-bvnv.pdf
-supplement: 2026_eurovis_evaluating-bvnv_supplement.pdf
+supplement: 2026_eurovis_evaluating-bvnv_supplementary-material.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
