@@ -11,8 +11,7 @@ image: 2026_eurovis_guardrail-selection.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
 image_large: 2026_eurovis_guardrail-selection_teaser.png
 # Add alt text for the teaser image, which is important for accessibility. If not provided, it will default to "{{ page.shortname }} screenshot. The alt text is used for the large image by default, but if a large image is not present, it's also used for the small image."
-#image_alt_text: Screenshot of the tRRRacer interface with a research thread highlighted." 
-
+image_alt_text: A concept figure about methods to select items for guardrails in like charts, and an example of a guardrail for stocks data.
 # Authors in the "database" can be used with just their person "key"
 authors:
 - abrar
