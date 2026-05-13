@@ -18,8 +18,8 @@ interests: Visualization tools, Provenance, Data Harmonization, Biomedical Visua
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated:
 # stuff below can be ignored if you don't use the group website for your private website
-gs:
-gh: https://github.com/EdenWuyifan
+gs: https://scholar.google.com/citations?user=nDnuVOAAAAAJ&hl=en
+github: https://github.com/EdenWuyifan
 cv:
 address:
 
