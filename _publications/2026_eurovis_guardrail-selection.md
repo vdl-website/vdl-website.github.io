@@ -36,7 +36,7 @@ bib:
 # publisherURL: 
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server: https://arxiv.org/abs/2605.19017
 
 # Links to a project hosted on VDL, or else externally on your own site
 # project: 
