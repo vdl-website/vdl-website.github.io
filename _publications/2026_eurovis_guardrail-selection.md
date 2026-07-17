@@ -28,6 +28,7 @@ bib:
   doi: 10.1111/cgf.70460
   volume: 45
   number: 3
+  pages: e70460
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 # award:

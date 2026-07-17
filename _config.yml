@@ -13,7 +13,7 @@ lsi: false
 google_analytics: "G-M0JZQWVNF5"
 use_analytics: true
 # publications are shown as recent on the front page for years strictly great than this year
-recent_pub_year: 2021
+recent_pub_year: 2025
 
 paper_content_url: https://visdesignlab.tugraz.at/papers/
 talk_content_url: https://visdesignlab.tugraz.at/talks/
