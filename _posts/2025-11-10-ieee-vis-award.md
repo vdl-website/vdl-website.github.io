@@ -8,7 +8,7 @@ publication_key: 2025_vis_revisit
 hide-author-images: true
 authors: 
  - lex
-abstract: "IWe’re happy to share that our paper on ReVISit 2 received a Best Paper Award at IEEE VIS 2025. ReVISit 2 is an open framework for designing, deploying, and disseminating browser-based visualization studies across the full experiment life cycle. In this post, we summarize the contributions of the paper, describe the replication studies that demonstrate the system’s capabilities, reflect on feedback from users, and outline how reVISit can support more reproducible and expressive experimental research.
+abstract: "We’re happy to share that our paper on ReVISit 2 received a Best Paper Award at IEEE VIS 2025. ReVISit 2 is an open framework for designing, deploying, and disseminating browser-based visualization studies across the full experiment life cycle. In this post, we summarize the contributions of the paper, describe the replication studies that demonstrate the system’s capabilities, reflect on feedback from users, and outline how reVISit can support more reproducible and expressive experimental research.
 "
 lead-image: /assets/images/posts/2026_award_photo.jpg
 lead-image-alt-text: "Selfie by the reVISit team on stage at IEEE VIS in Vienna after receiving the award."
