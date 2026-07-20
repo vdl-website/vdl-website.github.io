@@ -55,18 +55,17 @@ Even though it failed as software, Caleydo was still **hugely successful as a re
 
 ## Success: datavisyn – From Research Prototype to Commercial Product
 
-Next, I'd like to talk about easily the biggest software success story in my career so far: [datavisyn](https://www.datavisyn.io/). datavisyn is a company that develops data visualization solutions for pharmaceutical and biomedical applications. It was founded in 2016 by [Marc Streit](https://jku-vds-lab.at/persons/streit/), [Sam Gratzl](https://www.sgratzl.com/), [Nils Gehlenborg](https://hidivelab.org/team/members/nils-gehlenborg/), and is now led by [Dominic Girardi](https://at.linkedin.com/in/dominic-girardi-a199a894), [Michael Pühringer](https://www.linkedin.com/in/pueh/), and many other [talented individuals](https://www.datavisyn.io/about/). 
+Next, I'd like to talk about easily the biggest software success story in my career so far: [datavisyn](https://www.datavisyn.io/). datavisyn is a company that develops data visualization solutions for pharmaceutical and biomedical applications. It was founded in 2016 by [Marc Streit](https://jku-vds-lab.at/persons/streit/), [Sam Gratzl](https://www.sgratzl.com/), [Nils Gehlenborg](https://hidivelab.org/team/members/nils-gehlenborg/), and myself, and is now led by [Dominic Girardi](https://at.linkedin.com/in/dominic-girardi-a199a894), [Michael Pühringer](https://www.linkedin.com/in/pueh/), Marc Streit, and many other [talented individuals](https://www.datavisyn.io/about/). 
 
-The company grew out of our earlier work on LineUp and related visualization tools, and it was motivated by a simple realization: if we wanted to build and sustain serious visualization software for real users, we needed an organizational form that could support long-term engineering, documentation, hosting, and maintenance.
+The company grew out of academic visualization prototypes, and it was motivated by a simple realization: if we wanted to build and sustain serious visualization software for real users, we needed an organizational form that could support long-term engineering, documentation, hosting, and maintenance.
 
-It started as a ranking visualization for comparing weighted lists, originally conceived as a supplemental view for StratomeX, but it quickly became a project in its own right. The [paper was very well received](https://www.visdesignlab.net/publications/2013_infovis_lineup/), and the system addressed a real problem: people needed a way to compare rankings interactively, not just read them.
+It started as a ranking visualization for comparing weighted lists – LineUp. The [paper was very well received](https://www.visdesignlab.net/publications/2013_infovis_lineup/), and the system addressed a real problem: people needed a way to compare rankings interactively, not just read them.
 
 ![Screenshot of lineup showing multi-attribute rankings of universities.](/assets/images/posts/2026-07-17_byd/lineup_original.png)
 
 The initial version of LineUp was implemented in Java, but a crucial step was the transition from Java to the web. LineUp also found an audience outside academia. In particular, Marc and his collaborators in the pharmaceutical industry saw enough value in it to expand it to target a biomedical use-case, leading to [Ordino](https://jku-vds-lab.at/publications/2019_bioinformatics_ordino/), which is now one of the key products datavisyn sells. That was an important signal: the tool was no longer just a research prototype, but something that could support practical decision-making in a domain where ranking and comparison matter.
 
 ![Screenshot of the datavisn product Ordino which uses LineUp.](/assets/images/posts/2026-07-17_byd/lineup_ordino.png)
-
 
 At the same time, LineUp exposed a broader tension that we had already started to feel in Caleydo: academic software development and academic training do not always align well (we also wrote a [paper about that](https://www.visdesignlab.net/publications/2023_chi_troubling/)). We could not simply assign maintenance and bug fixing to PhD students, because they also needed to do novel research. The more a project depends on sustained engineering, the more that tension becomes visible. That problem became even more pronounced once we moved from “I want to build this myself” to “we need students to help maintain this.”
 
