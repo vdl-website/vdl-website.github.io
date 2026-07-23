@@ -5,6 +5,7 @@ title: "Running Online User Studies with the reVISit Framework"
 type: tutorial
 slides-key: 2026-06-09_reVISit_Tutorial.key
 slides-pdf: 2026-06-09_reVISit_Tutorial.pdf
+video: https://www.youtube.com/watch?v=mkKVrR-GGB0
 other:  
 date:  2024-10-14
 note: Held by together with members of the [reVISit team](https://revisit.dev/about/).
