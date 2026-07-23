@@ -1,26 +1,41 @@
 <div class="talk">
-    <p >
-        <b>{{talk.title }}</b>
-        {% if talk.abstract %}
-        <button class="talk-abstract-toggle" aria-expanded="false">abstract</button>
-        {% endif %}
-        <span style="float:right">
-        {% if talk.video %}
-        <!-- this is typically a youtube link -->
-        <a href="{{talk.video}}">Video</a> |
-        {% endif %}
-        {% if talk.slides-key %}
-        <a href="{{ site.talk_content_url }}{{talk.slides-key}}">Key</a> |
-        {% endif %}
-        {% if talk.slides-ppt %}
-        <a href="{{ site.talk_content_url }}{{talk.slides-ppt}}">PPT</a> |
-        {% endif %}
-        {% if talk.slides-pdf %}
-        <a href="{{ site.talk_content_url }}{{talk.slides-pdf}}">PDF</a>
-        {% endif %}
-        </span> <br>
+    <div class="talk-header">
+        <div class="talk-title-area">
+            <div class="talk-title"><b>{{ talk.title }}</b></div>
+            {% if talk.abstract %}
+            <div class="talk-abstract-toggle-row">
+                <button class="talk-abstract-toggle" aria-expanded="false">Show abstract</button>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="talk-actions">
+            {% assign separator = '' %}
+            {% if talk.video or talk.slides-key or talk.slides-ppt or talk.slides-pdf %}
+            <span class="talk-links">
+                {% if talk.video %}
+                {{ separator }}<a href="{{ talk.video }}">Video</a>
+                {% assign separator = ' | ' %}
+                {% endif %}
+                {% if talk.slides-key %}
+                {{ separator }}<a href="{{ site.talk_content_url }}{{ talk.slides-key }}">Key</a>
+                {% assign separator = ' | ' %}
+                {% endif %}
+                {% if talk.slides-ppt %}
+                {{ separator }}<a href="{{ site.talk_content_url }}{{ talk.slides-ppt }}">PPT</a>
+                {% assign separator = ' | ' %}
+                {% endif %}
+                {% if talk.slides-pdf %}
+                {{ separator }}<a href="{{ site.talk_content_url }}{{ talk.slides-pdf }}">PDF</a>
+                {% endif %}
+            </span>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="talk-content">
         {% if talk.note %}
-        {{ talk.note }}
+        {{ talk.note | markdownify }}
         {% endif %}
 
         <!-- abstract with expandable/collapsible functionality -->
@@ -36,27 +51,37 @@
         {{ instance  | markdownify}} 
         {% endfor %}
         </div>
-    </p>
+    </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const toggles = document.querySelectorAll('.talk-abstract-toggle');
-    toggles.forEach(toggle => {
-        toggle.addEventListener('click', function() {
-            const talk = this.closest('.talk');
-            const wrapper = talk.querySelector('.talk-abstract-wrapper');
-            const abstract = wrapper.querySelector('.talk-abstract');
-            const isHidden = abstract.hasAttribute('hidden');
-            
-            if (isHidden) {
-                abstract.removeAttribute('hidden');
-                this.setAttribute('aria-expanded', 'true');
-            } else {
-                abstract.setAttribute('hidden', '');
-                this.setAttribute('aria-expanded', 'false');
-            }
-        });
+(function() {
+    if (window.__talkAbstractToggleBound) {
+        return;
+    }
+    window.__talkAbstractToggleBound = true;
+
+    document.addEventListener('click', function(event) {
+        const toggle = event.target.closest('.talk-abstract-toggle');
+        if (!toggle) {
+            return;
+        }
+
+        const talk = toggle.closest('.talk');
+        const wrapper = talk && talk.querySelector('.talk-abstract-wrapper');
+        const abstract = wrapper && wrapper.querySelector('.talk-abstract');
+        if (!abstract) {
+            return;
+        }
+
+        const isHidden = abstract.hasAttribute('hidden');
+        if (isHidden) {
+            abstract.removeAttribute('hidden');
+            toggle.setAttribute('aria-expanded', 'true');
+        } else {
+            abstract.setAttribute('hidden', '');
+            toggle.setAttribute('aria-expanded', 'false');
+        }
     });
-});
+})();
 </script>

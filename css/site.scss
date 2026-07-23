@@ -972,6 +972,7 @@ a.project-website {
   font-family: $sans-serif-font-family;
   font-size: $page-content-font-size * 0.8;
   font-weight: 300;
+  padding-top: 6px;
   margin-bottom: 10px;
 }
 
@@ -1346,6 +1347,43 @@ pre.bibtex {
   margin-bottom: 10px;
 }
 
+.talk-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.talk-title-area {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.talk-title {
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.talk-abstract-toggle-row {
+  margin-top: 6px;
+  text-align: left;
+}
+
+.talk-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+.talk-links {
+  display: inline-block;
+}
+
+.talk-content {
+  margin-top: 6px;
+}
+
 .talk-abstract-toggle {
   background-color: transparent;
   border: 1px solid #999;
@@ -1355,7 +1393,7 @@ pre.bibtex {
   cursor: pointer;
   font-size: 12px;
   font-weight: 400;
-  margin-left: 8px;
+  margin-left: 0;
   transition: all 150ms ease;
 
   &:hover {
