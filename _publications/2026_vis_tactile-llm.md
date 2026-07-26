@@ -5,7 +5,7 @@ title: "Using Tactile Charts to Support Comprehension and Learning of Complex Vi
 key: 2026_vis_tactile-llm
 # paper | preprint | poster
 type: paper
-order: 2025-6
+order: 2026-7
 
 #paper_content_url: 
 
@@ -17,10 +17,10 @@ shortname: Tactile Charts
 image: 2026_vis_tactile-llm.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2026_vis_tactile-llm_teaser.png
-image_alt_text: ""
+image_alt_text: "A three-panel overview of the modalities used during chart-type learning. The left panel shows a screenshot of a web page titled ``Violin Plot Tactile Chart Exploration Instructions,'' organized into steps for orienting to the chart, introducing violin plots, and exploring the tactile model. The middle panel shows an overhead photograph of a 3D-printed tactile violin plot. The right panel shows a screenshot of an LLM chat from an actual participant session. The participant asks whether the upper peaks for Adelie and Chinstrap penguins have the same value and asks for the highest and lowest values for Gentoo; the assistant responds with numerical values and brief explanations."
 
 
-external-project: https://vdl.sci.utah.edu/tactile-charts/
+# external-project: 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
   - he
@@ -40,14 +40,14 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 10.1109/TVCG.2025.3633874
+  doi: 
   url: 
-  volume: 32
-  number: 1
-  pages: 199–209
+  volume: 
+  number: 
+  pages: 
   month: jan
 
-preprint_server: https://arxiv.org/abs/2507.21462
+preprint_server: 
 
 
 # videos:
