@@ -23,15 +23,15 @@ last_name: Lex
 key: lex
 permalink: /team/lex/
 # Pick one of the following
-role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | intern | collaborator
+role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | intern | collaborator | engineer
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg
 organization: University of Utah
 position: Associate Professor
 # use either a local link like here, or a URL
-website: /team/lex
+website: /team/lex/
 interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists
-#  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
+#  leave empty if you're active/working with the group. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: 
 
 # stuff below can be ignored if you don't use the group website for your private website
