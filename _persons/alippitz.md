@@ -6,23 +6,23 @@ last_name: Lippitz
 key: lippitz
 permalink: /team/lippitz/
 # Pick one of the following
-role: faculty
+role: engineer
 email: arthur.lippitz@tugraz.at
-image: assets/images/people/lippitz.jpg
+image: /assets/images/people/lippitz.jpg
 organization: Graz University of Technology
+primary_affiliation: tug
 position: Software Developer
 # use either a local link like here, or a URL
 website: /team/lippitz/
-interests:  Visualization, Evaluation, Human Centered Engineering, Easy to use Software
+interests: Visualization, Evaluation, Human Centered Engineering, Easy to use Software
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated: 
-
+graduated: M.S.'26
 # stuff below can be ignored if you don't use the group website for your private website
 gs:
 gh:
 twitter:
 cv:
-address:
+address: Sandgasse 36A/3. Stock
 
 # flag used to determine whether to show teaching
 showteaching: false
