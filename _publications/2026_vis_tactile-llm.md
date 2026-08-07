@@ -5,7 +5,7 @@ title: "Using Tactile Charts to Support Comprehension and Learning of Complex Vi
 key: 2026_vis_tactile-llm
 # paper | preprint | poster
 type: paper
-order: 2026-7
+order: 2026-6
 
 #paper_content_url: 
 
@@ -47,7 +47,7 @@ bib:
   pages: 
   month: jan
 
-preprint_server: 
+preprint_server: https://arxiv.org/abs/2607.23065
 
 
 # videos:
