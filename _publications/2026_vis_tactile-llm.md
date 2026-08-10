@@ -30,7 +30,7 @@ authors:
   - lex
 
 
-year: 2026
+year: 2027
 journal-short: IEEE VIS
 
 bibentry: article
@@ -45,7 +45,7 @@ bib:
   volume: 
   number: 
   pages: 
-  month: jan
+  month:
 
 preprint_server: https://arxiv.org/abs/2607.23065
 
