@@ -1,7 +1,7 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals"
+title: "Touching or Chatting: The Utility of LLMs and Tactile Charts for Learning about Complex Chart Types by BLV Individuals"
 key: 2026_vis_tactile-llm
 # paper | preprint | poster
 type: paper
@@ -11,7 +11,7 @@ order: 2026-6
 
 
 # The shortname is used for auto-generated titles
-shortname: Tactile Charts
+shortname: Touching or Chatting
 
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2026_vis_tactile-llm.png
