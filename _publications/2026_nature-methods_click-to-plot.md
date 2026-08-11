@@ -3,6 +3,7 @@ layout: publication
 title: "Click to plot"
 key: 2026_nature-methods_click-to-plot
 type: commentary
+order: 2026-5
 
 shortname: "Click to plot"
 image: 2026_nature-methods_click-to-plot.png
