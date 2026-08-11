@@ -1,7 +1,7 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals"
+title: "Touching or Chatting: The Utility of LLMs and Tactile Charts for Learning about Complex Chart Types by BLV Individuals"
 key: 2026_vis_tactile-llm
 # paper | preprint | poster
 type: paper
@@ -11,7 +11,7 @@ order: 2026-6
 
 
 # The shortname is used for auto-generated titles
-shortname: Tactile Charts
+shortname: Touching or Chatting
 
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2026_vis_tactile-llm.png
@@ -20,7 +20,8 @@ image_large: 2026_vis_tactile-llm_teaser.png
 image_alt_text: "A three-panel overview of the modalities used during chart-type learning. The left panel shows a screenshot of a web page titled ``Violin Plot Tactile Chart Exploration Instructions,'' organized into steps for orienting to the chart, introducing violin plots, and exploring the tactile model. The middle panel shows an overhead photograph of a 3D-printed tactile violin plot. The right panel shows a screenshot of an LLM chat from an actual participant session. The participant asks whether the upper peaks for Adelie and Chinstrap penguins have the same value and asks for the highest and lowest values for Gentoo; the assistant responds with numerical values and brief explanations."
 
 
-# external-project: 
+external-project: https://vdl.sci.utah.edu/tactile-and-LLM-revisit/
+
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
   - he
@@ -48,6 +49,7 @@ bib:
   month:
 
 preprint_server: https://arxiv.org/abs/2607.23065
+
 
 
 # videos:
