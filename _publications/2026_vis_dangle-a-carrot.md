@@ -38,7 +38,7 @@ preprint_server: https://arxiv.org/abs/2607.07463
 
 award:
 
-external-project:
+external-project: https://abhsarma.github.io/adversarial-effects-experiment/
 
 
 pdf: 2026_vis_dangle-a-carrot.pdf
