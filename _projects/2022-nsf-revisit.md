@@ -3,6 +3,8 @@ layout: project
 agency: The National Science Foundation
 key: 2022-nsf-revisit
 permalink: /projects/2022-nsf-revisit/
+redirect_from:
+ - /projects/2213756/
 website:
 logo: nsf.jpg
 title: "reVISit: Scalable Empirical Evaluation of Interactive Visualizations"
@@ -18,7 +20,7 @@ time: 07/01/2022-06/30/2025
 program: CCRI-CISE Community Research Infrastructure
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213756
 collaborative-award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213757
-number: NSF CNS 2213756
+number: 2213756
 active: true
 updated: 2022-07-07
 publications: 

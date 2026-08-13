@@ -2,7 +2,7 @@
 layout: project
 agency: Centers for Disease Control and Prevention
 key: 2023-cdc-foresite
-number:  
+number:
 permalink: /projects/2023-cdc-foresite/
 agency-website: https://www.cdc.gov/forecast-outbreak-analytics/partners/insightnet/integrators.html
 logo: cdc.png

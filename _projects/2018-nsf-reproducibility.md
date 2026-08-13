@@ -3,6 +3,8 @@ layout: project
 agency: The National Science Foundation
 key: 2018-nsf-reproducibility
 permalink: /projects/2018-nsf-reproducibility/
+redirect_from:
+ - /projects/1751238/
 website:
 logo: nsf.jpg
 title: "CAREER: Enabling Reproducibility of Interactive Visual Data Analysis"
@@ -14,7 +16,7 @@ coinvestigators:
 time: 04/01/2018-03/31/2024
 program: IIS CAREER 
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
-number: NSF IIS 1751238
+number: 1751238
 active: true
 updated: 2022-05-09
 publications: 

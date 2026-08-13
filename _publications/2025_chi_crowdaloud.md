@@ -55,6 +55,10 @@ preprint_server: https://osf.io/preprints/osf/8jb7e_v1
 
 code: https://github.com/visdesignlab/ThinkAloud
 
+project-ids:
+  - 2213756
+  - 2213757
+  - 2313998
 abstract: "
 <p>
 The think-aloud (TA) protocol is a useful method for evaluating user interfaces, including data visualizations. However, TA studies are time-consuming to conduct and hence often have a small number of participants. Crowdsourcing TA studies would help alleviate these problems, but the technical overhead and the unknown quality of results have restricted TA to synchronous studies. To address this gap we introduce CrowdAloud, a system for creating and analyzing asynchronous, crowdsourced TA studies. CrowdAloud captures audio and provenance (log) data as participants interact with a stimulus. Participant audio is automatically transcribed and visualized together with events data and a full recreation of the state of the stimulus as seen by participants. To gauge the value of crowdsourced TA studies, we conducted two experiments: one to compare lab-based and crowdsourced TA studies, and one to compare crowdsourced TA studies with crowdsourced text prompts. Our results suggest that crowdsourcing is a viable approach for conducting TA studies at scale.

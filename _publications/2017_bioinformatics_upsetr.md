@@ -63,6 +63,10 @@ supplements:
 # Link to the repository where the code is hostet
 code: https://github.com/hms-dbmi/UpSetR
 
+project-ids:
+  - R00HG007583
+  - U54HG007963
+  - U01-CA198935
 abstract: '
 <p>Venn and Euler diagrams are a popular yet inadequate solution for quantitative visualization of set intersections. A scalable alternative to Venn and Euler diagrams for visualizing intersecting sets and their properties is needed. We developed UpSetR, an open source R package that employs a scalable matrix-based visualization to show intersections of sets, their size, and other properties. UpSetR is available at <a href="https://cran.r-project.org/package=UpSetR">https://cran.r-project.org/package=UpSetR</a> and released under the MIT License. A Shiny app is available at <a href="https://gehlenborglab.shinyapps.io/upsetr">https://gehlenborglab.shinyapps.io/upsetr</a>.</p>'
 

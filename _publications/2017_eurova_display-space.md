@@ -56,6 +56,8 @@ supplements:
 # Link to the repository where the code is hostet
 #code: https://github.com/visdesignlab/graffinity
 
+project-ids:
+  - U01-CA198935
 abstract: "
 <p>We explore how the availability of a sensemaking tool influences users' knowledge externalization strategies. On a large display, users were asked to solve an intelligence analysis task with or without a bidirectionally linked concept-graph (BLC) to organize insights into concepts (nodes) and relations (edges). In BLC, both nodes and edges maintain 'deep links' to the exact source phrases and sections in associated documents. In our control condition, we were able to reproduce previously described spatial organization behaviors using document windows on the large display. When using BLC, however, we found that analysts apply spatial organization to BLC nodes instead, use significantly less display space and have significantly fewer open windows.</p>"
 

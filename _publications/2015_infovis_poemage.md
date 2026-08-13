@@ -49,6 +49,9 @@ pdf: 2015_infovis_poemage.pdf
 # Link to the repository where the code is hostet
 code: 
 
+project-ids:
+  - IIS-1350896
+  - HD-229002
 abstract: "
 <p>The digital humanities have experienced tremendous growth within the last decade, mostly in the context of developing computational tools that support what is called distant reading — collecting and analyzing huge amounts of textual data for synoptic evaluation. On the other end of the spectrum is a practice at the heart of the traditional humanities, close reading — the careful, in-depth analysis of a single text in order to extract, engage, and even generate as much productive meaning as possible. The true value of computation to close reading is still very much an open question. During a two-year design study, we explored this question with several poetry scholars, focusing on an investigation of sound and linguistic devices in poetry. The contributions of our design study include a problem characterization and data abstraction of the use of sound in poetry as well as Poemage, a visualization tool for interactively exploring the sonic topology of a poem. The design of Poemage is grounded in the evaluation of a series of technology probes we deployed to our poetry collaborators, and we validate the final design with several case studies that illustrate the disruptive impact technology can have on poetry scholarship. Finally, we also contribute a reflection on the challenges we faced conducting visualization research in literary studies.</p>"
 

@@ -65,6 +65,10 @@ supplements:
 # Link to the repository where the code is hostet
 code: https://github.com/visdesignlab/graffinity
 
+project-ids:
+  - IIS-1350896
+  - U01-CA198935
+  - ST1605-16-01
 abstract: "
 <p>Multivariate graphs are prolific across many fields, including transportation and neuroscience. A key task in graph analysis is the exploration of connectivity, to, for example, analyze how signals flow through neurons, or to explore how well different cities are connected by flights. While standard node-link diagrams are helpful in judging connectivity, they do not scale to large networks. Adjacency matrices also do not scale to large networks and are only suitable to judge connectivity of adjacent nodes. A key approach to realize scalable graph visualization are queries: instead of displaying the whole network, only a relevant subset is shown. Query-based techniques for analyzing connectivity in graphs, however, can also easily suffer from cluttering if the query result is big enough. To remedy this, we introduce techniques that provide an overview of the connectivity and reveal details on demand.We have two main contributions: (1) two novel visualization techniques that work in concert for summarizing graph connectivity; and (2) Graffinity, an open-source implementation of these visualizations supplemented by detail views to enable a complete analysis workflow. Graffinity was designed in a close collaboration with neuroscientists and is optimized for connectomics data analysis, yet the technique is applicable across domains. We validate the connectivity overview and our open-source tool with illustrative examples using flight and connectomics data.</p>"
 

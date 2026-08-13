@@ -63,6 +63,9 @@ preprint_server: https://osf.io/hdzyv/
 code: https://github.com/revisit-studies/
 
 
+project-ids:
+  - 2213756
+  - 2213757
 abstract: "
 <p>reVISit is an open-source software toolkit and framework for creating, deploying, and monitoring empirical visualization studies.
 Running a quality empirical study in visualization can be demanding and resource-intensive, requiring substantial time, cost, and technical expertise from the research team.
@@ -74,4 +77,4 @@ We demonstrate reVISit's functionality by re-implementing two studies --- a grap
 
 # Acknowledgements
 
-We are grateful to Cindy Xiong Bearfield, Lace Padilla, and Danielle Albers Szafir for advice on the requirements of a study platform. reVISit is funded by the National Science Foundation (CNS 213756 and 2213757).
+We are grateful to Cindy Xiong Bearfield, Lace Padilla, and Danielle Albers Szafir for advice on the requirements of a study platform. reVISit is funded by the National Science Foundation (CNS 2213756 and 2213757).

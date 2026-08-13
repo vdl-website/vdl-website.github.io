@@ -72,6 +72,8 @@ code: https://github.com/visdesignlab/CVOWorkshops
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1808.02502
 
+project-ids:
+  - 1350896
 abstract: "
 Applied visualization researchers often work closely with domain collaborators to explore new and useful applications of visualization. The early stages of collaborations are typically time consuming for all stakeholders as researchers piece together an understanding of domain challenges from disparate discussions and meetings. A number of recent projects, however, report on the use of creative visualization-opportunities (CVO) workshops to accelerate the early stages of applied work, eliciting a wealth of requirements in a few days of focused work. Yet, there is no established guidance for how to use such workshops effectively. In this paper, we present the results of a 2-year collaboration in which we analyzed the use of 17 workshops in 10 visualization contexts. Its primary contribution is a framework for CVO workshops that: 1) identifies a process model for using workshops; 2) describes a structure of what happens within effective workshops; 3) recommends 25 actionable guidelines for future workshops; and 4) presents an example workshop and workshop methods. The creation of this framework exemplifies the use of critical reflection to learn about visualization in practice from diverse studies and experience."
 

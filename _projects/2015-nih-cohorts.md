@@ -2,8 +2,10 @@
 layout: project
 agency: National Institutes of Health
 key: 2015-nih-cohorts
-number: U01CA198935
 permalink: /projects/2015-nih-cohorts/
+redirect_from:
+ - /projects/U01CA198935/
+ - /projects/U01-CA198935/
 agency-website: https://projectreporter.nih.gov/project_info_description.cfm?aid=8875824
 logo: nih.png
 title:  Visual Analysis of Genomic and Clinical Data from Large Patient Cohorts
@@ -20,7 +22,7 @@ coinvestigators:
 time: 2015-2018
 program: BD2K
 project-link: 
-number: U01 CA198935
+number: U01-CA198935
 active: true
 updated: 2018-02-23
 publications: 

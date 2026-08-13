@@ -44,6 +44,7 @@ pdf: 2024_vis_vispubs.pdf
 
 code: https://github.com/Dev-Lan/vispubs
 
+project-ids: []
 abstract: "
 <p>Data visualization researchers publish in various conferences and journals. This paper will focus on a few of the main venues, VIS, EuroVis, and CHI. In addition to the published manuscript, researchers often create other artifacts related to the work, such as videos, blog posts, and deployed versions of the tools created. Some of these artifacts can be found through search engines, but others are not readily accessible.
 Additionally, performing a keyword search across visualization publication venues is not currently possible. This project aims to collect publications along with their auxiliary artifacts across venues into a single repository with a user-friendly interface.</p>"

@@ -58,6 +58,8 @@ preprint_server: https://osf.io/wnctb/
 
 code: https://github.com/Trrack/trrackjs
 
+project-ids:
+  - 1751238
 abstract: "
 <p>Provenance tracking is widely acknowledged as an important component of visualization systems. By tracking provenance data, visualization designers can achieve a wide variety of important functionality, ranging from action recovery (undo/redo), reproducibility, collaboration and sharing, to logging in support of quantitative and longitudinal evaluation. Yet, for web-based visualizations, there are currently no libraries that make provenance tracking easy to implement in visualization systems. The result of this is that visualization designers either develop ad-hoc solutions that are rarely comprehensive, or don't track provenance at all. In this paper, we introduce a web-based software library --- Trrack --- that is designed for easy integration in existing or future visualization systems. Trrack supports a wide range of use cases, from simple action recovery, to capturing intent and reasoning, and can be used to share states with collaborators and store provenance on a server. Trrack also includes an optional provenance visualization component that supports annotation of states and aggregation of events.</p>
 "

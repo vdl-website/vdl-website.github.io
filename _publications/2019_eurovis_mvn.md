@@ -80,6 +80,10 @@ code: https://github.com/visdesignlab/mvnv
 # Link to an official preprint server
 preprint_server: http://dx.doi.org/10.31219/osf.io/upbm2
 
+project-ids:
+  - 1835904
+  - 1751238
+  - 1350896
 abstract: "
 Multivariate networks are made up of nodes and their relationships (links), but also data about those nodes and links as attributes. 
 Most real-world networks are associated with several attributes, and many analysis tasks depend on analyzing both, relationships and attributes. 

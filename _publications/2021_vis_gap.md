@@ -75,6 +75,8 @@ supplement: 2021_preprint_gap_supplement.zip
 
 
 
+project-ids:
+  - U54EB021973
 abstract: "<p>
 Personal informatics research helps people track personal data for the purposes of self-reflection and gaining self-knowledge. This field, however, has predominantly focused on the data collection and insight-generation elements of self-tracking, with less attention paid to flexible data analysis. As a result, this inattention has led to inflexible analytic pipelines that do not reflect or support the diverse ways people want to engage with their data. This paper contributes a review of personal informatics and visualization research literature to expose a gap in our knowledge for designing flexible tools that assist people engaging with and analyzing personal data in personal contexts, what we call the <em>personal informatics analysis gap</em>.  We explore this gap through a multistage longitudinal study on how asthmatics engage with personal air quality data, and we report how participants: were motivated by broad and diverse goals;  exhibited patterns in the way they explored their data;  engaged with their data in playful ways; discovered new insights through serendipitous exploration; and were reluctant to use analysis tools on their own. These results present new opportunities for visual analysis research and suggest the need for fundamental shifts in how and what we design when supporting personal data analysis. 
 </p>"

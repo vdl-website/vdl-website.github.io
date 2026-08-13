@@ -90,6 +90,8 @@ images:
 
 code: https://github.com/visdesignlab/intent-system
 
+project-ids:
+  - 1751238
 abstract: "
 <p>Predicting and capturing an analyst’s intent behind a selection in a data visualization is valuable in two scenarios: First, a successful prediction of a pattern an analyst intended to select can be used to auto-complete a partial selection which, in turn, can improve the correctness of the selection. Second, knowing the intent behind a selection can be used to improve recall and reproducibility.
 In this paper, we introduce methods to infer analyst's intents behind selections in data visualizations, such as scatterplots.

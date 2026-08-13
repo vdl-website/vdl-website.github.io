@@ -96,6 +96,9 @@ pdf: 2019_asee_air_quality.pdf
 # Link to the repository where the code is hosted
 #code: https://github.com/Caleydo/pathfinder/
 
+project-ids:
+  - 1646408
+  - 1642513
 abstract: "<p>
 Communities of citizen scientists have proven themselves to be capable of contributing to research endeavors in meaningful ways, and on a scale that would be impractical for any traditional research group. High-quality data collection by P12 citizen scientists presents one set of hurdles, which have been the subject of significant citizen scientist research. However, important questions remain on how to best engage the same students within more complex cognitive domains, such as hypothesis generation and validation.
 

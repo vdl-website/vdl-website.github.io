@@ -85,6 +85,8 @@ pdf: 2019_aci_composer.pdf
 # Link to the repository where the code is hosted
 code: https://github.com/visdesignlab/Composer/
 
+project-ids:
+  - 1751238
 abstract: "
 <p>
 <b>Objective.</b> Visual cohort analysis utilizing electronic health record data has

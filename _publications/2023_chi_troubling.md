@@ -83,6 +83,8 @@ preprint_server: https://doi.org/10.31219/osf.io/5y7ar
 
 # code: https://github.com/visdesignlab/Ferret
 
+project-ids:
+  - 1835904
 abstract: "
 <p>A common research process in visualization is for visualization researchers to collaborate with domain experts to solve particular applied data problems. While there is existing guidance and expertise around how to structure collaborations to strengthen research contributions, there is comparatively little guidance on how to navigate the implications of, and power produced through the socio-technical entanglements of collaborations. In this paper, we qualitatively analyze reflective interviews of past participants of collaborations from multiple perspectives: visualization graduate students, visualization professors, and domain collaborators. We juxtapose the perspectives of these individuals, revealing tensions about the tools that are built and the relationships that are formed — a complex web of competing motivations. Through the lens of <i>matters of care</i>, we interpret this web, concluding with considerations that both trouble and necessitate reformation of current patterns around collaborative work in visualization design studies to promote more equitable, useful, and care-ful outcomes.</p>
 "
