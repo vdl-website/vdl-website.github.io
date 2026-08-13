@@ -96,6 +96,9 @@ code: https://github.com/visdesignlab/persist/
 
 
 
+project-ids:
+  - 1751238
+  - 213756
 abstract: "
 <p>
 Computational notebooks, such as Jupyter, support rich data visualization. However, even when visualizations in notebooks are interactive, they are a dead end: Interactive data manipulations, such as selections, applying labels, filters, categorizations, or fixes to column or cell values, could be efficiently applied in interactive visual components, but interactive components typically cannot manipulate Python data structures. Furthermore, actions performed in interactive plots are lost as soon as the cell is re-run, prohibiting reusability and reproducibility. To remedy this problem, we introduce Persist, a family of techniques to (a) capture interaction provenance, enabling the persistence of interactions, and (b) map interactions to data manipulations that can be applied to dataframes. We implement our approach as a JupyterLab extension that supports tracking interactions in Vega-Altair plots and in a data table view. Persist can re-execute interaction provenance when a notebook or a cell is re-executed, enabling reproducibility and re-use. 

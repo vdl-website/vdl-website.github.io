@@ -68,6 +68,7 @@ code:
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1809.09417
 
+project-ids: []
 abstract: "Reflection is a core method used by visualization researchers to generate knowledge from design practice. There is, however, a lack of standards to inform reflective practice and through which we can judge the quality of the reflection used in visualization research. Reflecting on this gap, we offer priorities for researchers looking to improve the use of reflection in applied visualization research."
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.

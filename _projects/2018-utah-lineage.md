@@ -15,7 +15,7 @@ coinvestigators:
 time: 2018-2019
 program: 
 agency-website:
-number: 
+number:
 active: true
 updated: 2018-08-02
 staff:

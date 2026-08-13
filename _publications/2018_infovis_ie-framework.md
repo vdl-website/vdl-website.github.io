@@ -70,6 +70,8 @@ code:
 # Link to an official preprint server
 # preprint_server: https://doi.org/10.1101/128579
 
+project-ids:
+  - GRF-1747505
 abstract: "This paper presents a framework for externalizing and analyzing expert knowledge about discrepancies in data through the use of visualization. Grounded in an 18-month design study with global health experts, the framework formalizes the notion of data discrepancies as implicit error, both in global health data and more broadly. We use the term implicit error to describe measurement error that is inherent to and pervasive throughout a dataset, but that isn’t explicitly accounted for or defined. Instead, implicit error exists in the minds of experts, is mainly qualitative, and is accounted for subjectively during expert interpretation of the data. Externalizing knowledge surrounding implicit error can assist in synchronizing, validating, and enhancing interpretation, and can inform error analysis and mitigation. The framework consists of a description of implicit error components that are important for downstream analysis, along with a process model for externalizing and analyzing implicit error using visualization. As a second contribution, we provide a rich, reflective, and verifiable description of our research process as an exemplar summary toward the ongoing inquiry into ways of increasing the validity and transferability of design study research."
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.

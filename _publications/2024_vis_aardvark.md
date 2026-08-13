@@ -109,6 +109,9 @@ images:
 
 code: https://github.com/visdesignlab/Aardvark
 
+project-ids:
+  - R01CA276653
+  - 3P30CA042014-34S6
 abstract: "
 <p>How do cancer cells grow, divide, proliferate and die? How do drugs influence these processes? These are difficult questions that we can attempt to answer with a combination of time-series microscopy experiments, classification algorithms, and data visualization. 
 However, collecting this type of data and applying algorithms to segment and track cells and construct lineages of proliferation is error-prone; and identifying the errors can be challenging since it often requires cross-checking multiple data types. Similarly, analyzing and communicating the results necessitates synthesizing different data types into a single narrative.

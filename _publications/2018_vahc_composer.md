@@ -84,6 +84,8 @@ pdf: 2018_vahc_composer.pdf
 # Link to the repository where the code is hosted
 code: https://github.com/visdesignlab/Composer/
 
+project-ids:
+  - 1751238
 abstract: "
 Visual cohort analysis utilizing electronic health record (EHR) data has become an important tool in clinical assessment of patient outcomes. In this paper, we introduce Composer, a visual analysis tool for orthopaedic surgeons to compare changes in physical functions of a patient cohort following various spinal procedures. The goal of our project is to help researchers analyze outcomes of procedures and facilitate informed decision-making about treatment options between patient and clinician. With Composer, analysts can dynamically define a patient cohort using demographic information, clinical parameters, and events in patient medical histories and then analyze patient-reported outcome scores for the cohort over time, as well as compare it to other cohorts. We describe a usage scenario for use of the tool in a clinical setting.
 "

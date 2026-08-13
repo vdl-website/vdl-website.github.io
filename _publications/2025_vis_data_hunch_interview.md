@@ -81,6 +81,8 @@ preprint_server:  https://doi.org/10.31219/osf.io/dn32z_v2
 
 
 
+project-ids:
+  - 1835904
 abstract: "
 <p>Data-driven decision making has become a popular practice in science, industry, and public policy. Yet data alone, as an imperfect and partial representation of reality, is often insufficient to make good analysis decisions. Knowledge about the context of a dataset, its strengths and weaknesses, and its applicability for certain tasks is essential. Analysts are often not only familiar with the data itself, but also have data hunches about their analysis subject. In this work, we present an interview study with analysts from a wide range of domains and with varied expertise and experience, inquiring about the role of contextual knowledge. We provide insights into how data is insufficient in analysts’ workflows and how they incorporate other sources of knowledge into their analysis. We analyzed how knowledge of data shaped their analysis outcome. Based on the results, we suggest design opportunities to better and
 more robustly consider both knowledge and data in analysis processes.</p>

@@ -253,6 +253,35 @@ layout: default
     {% endif %}
     {% endfor %}
 
+    {% assign has_supporting_grants = false %}
+    {% if page["project-ids"] %}
+      {% for grant_id in page["project-ids"] %}
+        {% for project in site.projects %}
+          {% if project.number and project.number == grant_id %}
+            {% assign has_supporting_grants = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if has_supporting_grants %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if has_supporting_grants %}
+    <h1>Supporting Grants at VDL</h1>
+    <ul>
+      {% for grant_id in page["project-ids"] %}
+        {% for project in site.projects %}
+          {% if project.number and project.number == grant_id %}
+          <li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.agency }}: {{ grant_id }}</a></li>
+          {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+
 
   </article>
 

@@ -69,6 +69,8 @@ code:
 # Link to an official preprint server
 # preprint_server: https://doi.org/10.1101/128579
 
+project-ids:
+  - GRF-1747505
 abstract: "One way astronomers and astrophysicists study galaxy formation and evolution is by analyzing and comparing real galaxy observations, captured by telescopes, and simulated galaxy observations, generated from theoretical models. They approach this through a combination of statistical and visual analysis, conducted either independently or sequentially. During the first year of an ongoing design study with astronomers and astrophysicists, we explored approaches to integrating statistical and visual analysis to enhance understanding of these data. Contributions from this stage of the study include a data and task abstraction for statistically and visually analyzing real and simulated galaxy observations, as well as an initial design, implemented in a prototype called GalStamps, and evaluated through two case studies with domain experts."
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.

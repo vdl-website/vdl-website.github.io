@@ -77,6 +77,9 @@ code: https://github.com/caleydo/lineupjs/tree/develop
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1712.05944
 
+project-ids:
+  - 851460
+  - 1751238
 abstract: "
 <p>Most tabular data visualization techniques focus on overviews, yet many practical analysis tasks are concerned with investigating individual items of interest. At the same time, relating an item to the rest of a potentially large table is important. 
 In this work we present Taggle, a tabular visualization technique for exploring and presenting large and complex tables. Taggle takes an item-centric, spreadsheet-like approach, visualizing each row in the source data individually using visual encodings for the cells. At the same time, Taggle introduces data-driven aggregation of data subsets. The aggregation strategy is complemented by interaction methods tailored to answer specific analysis questions, such as sorting based on multiple columns and rich data selection and filtering capabilities. We demonstrate Taggle using a case study conducted by a domain expert on complex genomics data analysis for the purpose of drug discovery.</p>"

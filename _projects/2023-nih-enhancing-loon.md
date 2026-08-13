@@ -2,8 +2,10 @@
 layout: project
 agency: National Institutes of Health
 key: 2023-nih-enhancing-loon
-number: 3P30CA042014-34S6  
+number: 3P30CA042014-34S6
 permalink: /projects/2023-nih-enhancing-loon/
+redirect_from:
+ - /projects/3P30CA042014-34S6/
 agency-website: https://reporter.nih.gov/search/xV2qgGqK7U-ls4QTrSHB1w/project-details/10839204
 logo: nih.png
 title: "Enhancing Loon: Increasing Robustness and Generalizing Input Formats for a Visualization Tool for Large-Scale Microscopy Data"

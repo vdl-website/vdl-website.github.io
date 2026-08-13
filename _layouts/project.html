@@ -15,17 +15,20 @@ layout: default
         <h2>Abstract</h2>
         {{ page }}
 
-        {% if page.publications %}
+        {% if page.number %}
 
-            {% assign pubs = page.publications %}
-            <h2>Publications</h2>
+            {% assign publications = site.publications | sort: 'year' %}
+            {% assign publications = publications | sort: 'order' %}
+            {% assign has_project_publications = false %}
 
-            {% for publication_key in pubs reversed  %}
-                {% for publication in site.publications %}
-                    {% if publication.key == publication_key %}
-                        {% include publication_list_entry.html %}
+            {% for publication in publications reversed %}
+                {% if publication["project-ids"] and publication["project-ids"] contains page.number %}
+                    {% if has_project_publications == false %}
+                        <h2>Publications</h2>
+                        {% assign has_project_publications = true %}
                     {% endif %}
-                {% endfor %}
+                    {% include publication_list_entry.html %}
+                {% endif %}
             {% endfor %}
         {% endif %}
 

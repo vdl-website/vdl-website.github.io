@@ -55,6 +55,8 @@ supplements:
 # Link to the repository where the code is hostet
 code: 
 
+project-ids:
+  - IIS-1350896
 abstract: "
 <p>In applied visualization research, artifacts are shaped by a series of small design decisions, many of which are evaluated quickly and informally via methods that often go unreported and unverified. Such design decisions are influenced not only by visualization theory, but also by the people and context of the research. While existing applied visualization models support a level of reliability throughout the design process, they fail to explicitly address the influence of the research context in shaping the resulting design artifacts. In this work we look to action design research (ADR) for insight into this gap. In particular, ADR offers a framework along with a set of guiding principles for navigating and capitalizing on the disruptive, subjective, human-centered nature of applied design research, while aiming to ensure reliability of the process and design. We explore the utility of ADR in increasing reliability of applied visualization design research by: describing ADR in the language and constructs developed within the visualization community; comparing ADR to existing visualization methodologies; and analyzing a recent design study retrospectively through the lens of ADR’s framework and principles.</p>"
 

@@ -3,6 +3,8 @@ layout: project
 agency: The Department of Defense
 key: 2016-dod-composites
 permalink: /projects/2016-dod-composites/
+redirect_from:
+ - /projects/ST1605-16-01/
 website:
 logo: dod.png
 title: "Increasing the State's Resiliency to Fluctuations in Defense Spending by Strengthening the Carbon Composite Sector Knowledge Base"

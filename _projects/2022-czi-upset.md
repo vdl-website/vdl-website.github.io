@@ -3,6 +3,8 @@ layout: project
 agency: Chan Zuckerberg Initiative
 key: 2022-czi-upset
 permalink: /projects/2022-czi-upset/
+redirect_from:
+ - /projects/EOSS5/
 website:
 logo: czi-logo-circle.svg
 title: "Achieving Accessibility for UpSet Plots"

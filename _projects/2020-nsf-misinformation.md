@@ -3,6 +3,17 @@ layout: project
 agency: The National Science Foundation
 key: 2020-nsf-misinformation
 permalink: projects/2020-nsf-misinformation/
+redirect_from:
+ - /projects/2041136/
+ - University of Utah
+ - Marina Kogan
+ - 2024_chi_yeah
+ - 2023_chi_misleading
+ - lex
+ - lisnic
+ - Marina Kogan
+ - polychronis
+ - ssiu
 website:
 logo: nsf.jpg
 title: "EAGER: Understanding and Mitigating Misinformation in Visualizations On Social Media"
@@ -16,7 +27,7 @@ time: 01/01/2021-06/30/2022
 program: IIS 
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2041136
 collaborative-award: 
-number: NSF IIS 2041136
+number: 2041136
 active: true
 updated: 2021-02-17
 publications: 

@@ -77,6 +77,7 @@ pdf: 2020_vahc_sanguine.pdf
 # Link to the repository where the code is hosted
 code: https://github.com/visdesignlab/Sanguine/
 
+project-ids: []
 abstract: "
 Blood transfusion is a frequently performed medical procedure in surgical and nonsurgical contexts. Although it is frequently necessary or even life-saving, it has been identified as one of the most overused procedures in hospitals. Unnecessary transfusions not only waste resources but can also be detrimental to patient outcomes. Patient blood management (PBM) is the clinical practice of optimizing transfusions and associated outcomes. In this paper, we introduce Sanguine, a visual analysis tool for transfusion data and related patient medical records. Sanguine was designed with two user groups in mind: PBM experts and clinicians who conduct transfusions. PBM experts use Sanguine to explore and analyze transfusion practices and its associated medical outcomes. They can compare individual surgeons, or compare outcomes or time periods, such as before and after an intervention regarding transfusion practices. PBM experts then curate and annotate views for communication with clinicians, with the goal of improving their transfusion practices. Such a review session could be in person or through a shared link. We validate the utility and effectiveness of Sanguine through case studies. 
 "

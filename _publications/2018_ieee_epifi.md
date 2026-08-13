@@ -90,6 +90,8 @@ pdf: 2018_ieee_epifi.pdf
 # Link to the repository where the code is hosted
 # code: 
 
+project-ids:
+  - 1U54EB021973-01
 abstract: "<p>
 We design and build EpiFi, a novel architecture for in-home sensor networks which allows epidemiologists to easily design and deploy exposure sensing systems in homes. We work collaboratively with pediatric asthma researchers to design multiple studies and deploy EpiFi in homes. Here, we report on experiences from two years of deployments in 15 homes, of two different types of studies, including many deployments continuously monitored over the past year. Based on lessons learned from these deployments and researchers, we develop a new mechanism for sensors to bootstrap their connectivity to a subject's home WiFi router and implement data reliability mechanisms to minimize loss in the network through a long-term deplovment
 </p>"

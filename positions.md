@@ -17,9 +17,9 @@ We are also planning to **recruit new PhD students** soon. If you're interested 
 
 ## General Information
 
-We are always looking for talented and motivated individuals to join the Vis Design Lab as **PhD students** or **Postdoctoral Fellows** in the area of **data visualization**.
+**We currently have no advertised openings**. However, we welcome inquiries from prospective PhD students and postdoctoral researchers whose interests align with the lab’s research. Feel free to reach out to discuss potential opportunities.
 
-The **Graz University of Technology (TU Graz)** is one of the leading institutions for computer science and engineering in Austria, located in the vibrant and historic university town of **Graz**.
+**Graz University of Technology (TU Graz)** is one of the leading institutions for computer science and engineering in Austria, located in the vibrant and historic university town of **Graz**.
 
 Our group takes a **problem-driven approach** to visualization research, working closely with collaborators across disciplines — from the sciences to the humanities — to design novel techniques and tools that support **exploratory, complex data analysis**.
 
@@ -48,12 +48,12 @@ PhD students are enrolled in TU Graz’s **doctoral program**. At present, a **c
 
 We welcome applicants from computer science and related fields, but also from diverse backgrounds such as **bioinformatics, mathematics, physics, design, or psychology**. Strong written and verbal communication skills are essential.
 
-There is **no fixed application deadline**: applications are reviewed on a rolling basis.
+There is **no fixed recruitment deadline**: funded PhD opportunities may become available throughout the year.
 
 
-## Postdoctoral Fellows
+## Postdoctoral Researchers
 
-We are seeking outstanding candidates with a strong track record in **visualization research**. Postdoctoral fellows are expected to:
+We are interested in hearing from prospective postdoctoral researchers with a strong track record in **visualization research**. Postdoctoral researchers are expected to:
 
 - Develop a research agenda aligned with our focus areas  
 - Manage projects and coordinate with collaborators and lab members  
@@ -72,11 +72,6 @@ Candidates must hold a **PhD in computer science** or a related field and have a
 - Motivation, initiative, and willingness to learn  
 - Strong written and verbal communication skills  
 
-While specific openings will be posted on this page, feel free to submit:
+While specific openings will be posted on this page, feel free to submit your CV and, optionally, a research statement at any time. We will keep your materials on file and contact you if a suitable position becomes available.
 
-- Your CV  
-- A research statement  
-- PDFs of your best papers  
-- Contact information for three references  
-
-Send materials to [alex@visdesignlab.net](mailto:alex@visdesignlab.net). We look forward to hearing from you!
+Send materials to [alex@visdesignlab.net](mailto:alex@visdesignlab.net).

@@ -70,6 +70,13 @@ code: https://github.com/SayingsOlly/kernel_vis_d3
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1709.04453
 
+project-ids:
+  - CCF-1350888
+  - IIS-1251019
+  - ACI-1443046
+  - CNS-1514520
+  - CNS-1564287
+  - U01-CA198935
 abstract: "
 <p>The size of large, geo-located datasets has reached scales where visualization of all data points is inefficient. Random sampling is a method to reduce the size of a dataset, yet it can introduce unwanted errors. We describe a method for subsampling of spatial data suitable for creating kernel density estimates from very large data and demonstrate that it results in less error than random sampling. We also introduce a method to ensure that thresholding of low values based on sampled data does not omit any regions above the desired threshold when working with sampled data. We demonstrate the effectiveness of our approach using both, artificial and real-world large geospatial datasets.</p>"
 

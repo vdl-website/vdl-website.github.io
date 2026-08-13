@@ -91,13 +91,14 @@ images:
 code: 
 
 
+project-ids:
+  - 1835904
 abstract: "
 <p>Design study is an established approach of conducting problem-driven visualization research. The academic visualization
 community has produced a large body of work for reporting on design studies, informed by a handful of theoretical frameworks, and
 applied to a broad range of application areas. The result is an abundance of reported insights into visualization design, with an
 emphasis on novel visualization techniques and systems as the primary contribution of these studies. In recent work we proposed
 a new, interpretivist perspective on design study and six companion criteria for rigor that highlight the opportunities for researchers to contribute knowledge that extends beyond visualization idioms and software. In this work we conducted a year-long collaboration with evolutionary biologists to develop an interactive tool for visual exploration of multivariate datasets and phylogenetic trees. During this design study we experimented with methods to support three of the rigor criteria: ABUNDANT, REFLEXIVE, and TRANSPARENT. As a result we contribute two novel visualization techniques for the analysis of multivariate phylogenetic datasets, three methodological recommendations for conducting design studies drawn from reflections over our process of experimentation, and two writing devices for reporting interpretivist design study. We offer this work as an example for implementing the rigor criteria to produce a diverse range of knowledge contributions.</p>"
-
 ---
 
 # Acknowledgements

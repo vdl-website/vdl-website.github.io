@@ -2,8 +2,10 @@
 layout: project
 agency: National Institutes of Health
 key: 2023-nih-quick
-number: 1R01CA276653-01A1  
+number: R01CA276653
 permalink: /projects/2023-nih-quick/
+redirect_from:
+ - /projects/R01CA276653/
 agency-website: https://reporter.nih.gov/project-details/10737379
 logo: nih.png
 title: "Development and pre-clinical validation of Quantitative Imaging of Cell state Kinetics (QuICK) to inform selection of melanoma therapy"
