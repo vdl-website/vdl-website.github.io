@@ -35,7 +35,7 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi:  10.31219/osf.io/79eyn 
+  doi:  10.1109/TVCG.2024.3456186 
   url: 
   volume: 31
   number: 1
