@@ -41,8 +41,8 @@ award:
 
 external-project: https://vdl.sci.utah.edu/visLiteracyStudy/
 
-pdf:
-supplement:
+pdf: 2026_vis_read-critique-or-sketch.pdf
+supplement: 2026_vis_read-critique-or-sketch_supplement.zip
 supplements:
 
 code: https://github.com/visdesignlab/visLiteracyStudy
