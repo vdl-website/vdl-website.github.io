@@ -12,7 +12,7 @@ position: Software Developer
 primary_affiliation: utah
 website: /team/jay
 interests: Human Centered Computing, Web Development, Data Visualization
-graduated: 
+graduated: N
 gs: https://scholar.google.com/citations?user=QBxsVuQAAAAJ&hl=en
 github: https://github.com/jaykim1213
 address: |
