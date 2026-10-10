@@ -15,6 +15,17 @@ We meet weekly as a group to discuss a research paper, give feedback on research
 
 Once a year we do something fun for a group retreat. Here are some pictures from these events.
 
+### 2026 Group Retreat 
+
+A hike and Buschenschank for our 2026 group retreat; unfortunately the Utah part of the team couldn't participate. 
+<img class="social" src="../assets/images/social/2026_retreat.jpg " alt="2026 VDL Group Photo at Hike in Leutschach.">
+
+### 2025 Group Social
+
+2025 was a year of transition, with the lab moving to Austria. We did get together with lab members and Alumni at IEEE VIS in Vienna, Austria!
+<img class="social" src="../assets/images/social/2025_social.jpg " alt="2025 VDL Social Group Photo IEEE VIS in Vienna.">
+
+
 ### 2024 Group Retreat
 
 <img class="social" src="../assets/images/social/2024_group_retreat.jpg " alt="2024 VDL Social Group Photo at Top Golf.">
