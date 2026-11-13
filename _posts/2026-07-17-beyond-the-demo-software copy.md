@@ -11,7 +11,7 @@ authors:
 abstract: "Over the last 15 years, I have been involved in numerous projects that aimed to build visualization research software – not just as demonstrations for papers, but as systems that could be sustained, adopted, and used beyond their original research context. Some of these efforts failed; others achieved tentative forms of success. In this post, I will reflect on what worked, what did not, and what I learned from both. I will discuss different ways visualization research software can succeed: by advancing an idea even when the lasting contribution is the idea rather than the artifact, by turning a prototype into a commercial product, or by growing a project into community-focused open-source infrastructure. Drawing on these experiences, I will offer practical guidelines for researchers who want to build software that survives beyond the initial publication."
 
 lead-image: /assets/images/posts/2026-07-17_byd/teaser.png
-lead-image-alt-text: "Selfie by the reVISit team on stage at IEEE VIS in Vienna after receiving the award."
+lead-image-alt-text: "Illustration of the various software projects."
 ---
 
 
