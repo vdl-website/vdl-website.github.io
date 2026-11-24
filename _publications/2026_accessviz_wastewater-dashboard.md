@@ -23,7 +23,6 @@ year: 2026
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of Workshop on Accessible Data Visualization (AccessViz) at IEEE VIS
-  year: 2026
 pdf: 2026_accessviz_wastewater-dashboard.pdf
 code: https://github.com/EpiForeSITE/accessible-wastewater-dashboard
 abstract: >-

@@ -19,7 +19,6 @@ year: 2026
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of Workshop on Accessible Data Visualization (AccessViz) at IEEE VIS
-  year: 2026
 pdf: 2026_accessviz_accessibility-auditing.pdf
 code: https://github.com/rahatzamancse/site-accessibility-auditor
 abstract: >-
